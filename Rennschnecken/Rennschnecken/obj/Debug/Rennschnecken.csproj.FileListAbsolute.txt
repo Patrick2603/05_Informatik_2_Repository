@@ -7,3 +7,4 @@ C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Re
 C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Rennschnecken\Rennschnecken\obj\Debug\Rennschnecken.csproj.CoreCompileInputs.cache
 C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Rennschnecken\Rennschnecken\obj\Debug\Rennschnecken.exe
 C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Rennschnecken\Rennschnecken\obj\Debug\Rennschnecken.pdb
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Rennschnecken\Rennschnecken\obj\Debug\Rennschnecken.Form1.resources

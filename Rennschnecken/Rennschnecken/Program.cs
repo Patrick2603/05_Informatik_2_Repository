@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace Rennschnecken
 {
-    internal static class Program
+    internal static class Program 
     {
         /// <summary>
         /// Der Haupteinstiegspunkt für die Anwendung.
@@ -33,14 +33,14 @@ namespace Rennschnecken
                 schnecke2.Krieche();
                 schnecke3.Krieche();
 
-                Console.Clear();
-                Console.WriteLine(schnecke1.Visualisierung);
-                Console.WriteLine(schnecke2.Visualisierung);
-                Console.WriteLine(schnecke3.Visualisierung);
-
                 Thread.Sleep(250);
             }
             while ((schnecke1.Strecke < STRECKEN_LÄNGE) && (schnecke2.Strecke < STRECKEN_LÄNGE) && (schnecke3.Strecke < STRECKEN_LÄNGE));
+
+            //Console.Clear();
+            Console.WriteLine(schnecke1.Visualisierung);
+            Console.WriteLine(schnecke2.Visualisierung);
+            Console.WriteLine(schnecke3.Visualisierung);
 
             Console.ReadKey();
         }

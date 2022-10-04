@@ -15,6 +15,16 @@ namespace Rennschnecken
         public Form1()
         {
             InitializeComponent();
+
+            Button button1 = new Button();
+            button1.DialogResult = DialogResult.OK;
+            Controls.Add(button1);
+
+            if (button1.DialogResult == DialogResult.OK)
+            {
+                Random random = new Random(); 
+            }
+            
         }
     }
 }
