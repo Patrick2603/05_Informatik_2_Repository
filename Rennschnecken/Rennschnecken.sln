@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rennschnecken", "Rennschnecken\Rennschnecken.csproj", "{99AA1611-746B-46BF-8470-1D57926260DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99AA1611-746B-46BF-8470-1D57926260DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99AA1611-746B-46BF-8470-1D57926260DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99AA1611-746B-46BF-8470-1D57926260DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99AA1611-746B-46BF-8470-1D57926260DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DA1A995-F9AB-4459-9CA1-9A567265C233}
+	EndGlobalSection
+EndGlobal
