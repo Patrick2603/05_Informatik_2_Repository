@@ -8,7 +8,7 @@ namespace Rennschnecken
 {
     internal class Rennschnecken
     {
-        public void Rennschnecke(Random rand)
+        public Rennschnecken(Random rand)
         {
             _rand = rand;
         }

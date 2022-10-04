@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Threading; 
+using System.Threading;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -23,10 +23,10 @@ namespace Rennschnecken
 
             Random random = new Random();
 
-            Rennschnecke schnecke1 = new Rennschnecke(random);
-            Rennschnecke schnecke2 = new Rennschnecke(random);
-            Rennschnecke schnecke3 = new Rennschnecke(random);
-
+            Rennschnecken schnecke1 = new Rennschnecken(random);
+            Rennschnecken schnecke2 = new Rennschnecken(random);
+            Rennschnecken schnecke3 = new Rennschnecken(random);
+            
             do
             {
                 schnecke1.Krieche();
