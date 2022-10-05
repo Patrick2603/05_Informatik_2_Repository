@@ -8,9 +8,13 @@ namespace Rennschnecken
 {
     internal class Rennschnecken
     {
-        public Rennschnecken(Random rand)
+        private int _strecke;
+        private Random _rand;
+
+        public Rennschnecken(Random rand, Rennschnecken schnecke1)
         {
             _rand = rand;
+            _strecke = 0; 
         }
 
         public void Krieche()
@@ -41,9 +45,5 @@ namespace Rennschnecken
                 return s;
             }
         }
-
-        private int _strecke = 0;
-        private Random _rand;
-
     }
 }
