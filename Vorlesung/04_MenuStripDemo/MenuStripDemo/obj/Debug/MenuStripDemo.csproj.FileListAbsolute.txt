@@ -1,0 +1,16 @@
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\MenuStripDemo\MenuStripDemo\bin\Debug\MenuStripDemo.exe.config
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\MenuStripDemo\MenuStripDemo\bin\Debug\MenuStripDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\MenuStripDemo\MenuStripDemo\bin\Debug\MenuStripDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\MenuStripDemo\MenuStripDemo\obj\Debug\MenuStripDemo.Form1.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\MenuStripDemo\MenuStripDemo\obj\Debug\MenuStripDemo.Properties.Resources.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\MenuStripDemo\MenuStripDemo\obj\Debug\MenuStripDemo.csproj.GenerateResource.Cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\MenuStripDemo\MenuStripDemo\obj\Debug\MenuStripDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\MenuStripDemo\MenuStripDemo\obj\Debug\MenuStripDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\MenuStripDemo\MenuStripDemo\bin\Debug\MenuStripDemo.exe.config
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\MenuStripDemo\MenuStripDemo\obj\Debug\MenuStripDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\MenuStripDemo\MenuStripDemo\obj\Debug\MenuStripDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\MenuStripDemo\MenuStripDemo\bin\Debug\MenuStripDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\MenuStripDemo\MenuStripDemo\bin\Debug\MenuStripDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\MenuStripDemo\MenuStripDemo\obj\Debug\MenuStripDemo.Form1.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\MenuStripDemo\MenuStripDemo\obj\Debug\MenuStripDemo.Properties.Resources.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\MenuStripDemo\MenuStripDemo\obj\Debug\MenuStripDemo.csproj.GenerateResource.Cache

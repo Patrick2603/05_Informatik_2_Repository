@@ -1,0 +1,12 @@
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\GenericListDemo\GenericListDemo\bin\Debug\GenericListDemo.exe.config
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\GenericListDemo\GenericListDemo\bin\Debug\GenericListDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\GenericListDemo\GenericListDemo\bin\Debug\GenericListDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\GenericListDemo\GenericListDemo\obj\Debug\GenericListDemo.csprojResolveAssemblyReference.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\GenericListDemo\GenericListDemo\obj\Debug\GenericListDemo.Form1.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\GenericListDemo\GenericListDemo\obj\Debug\GenericListDemo.Properties.Resources.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\GenericListDemo\GenericListDemo\obj\Debug\GenericListDemo.csproj.GenerateResource.Cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\GenericListDemo\GenericListDemo\obj\Debug\GenericListDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\GenericListDemo\GenericListDemo\obj\Debug\GenericListDemo.pdb
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\10 Collections\BeispieleVorlesung\GenericListDemo\GenericListDemo\bin\Debug\GenericListDemo.exe.config
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\10 Collections\BeispieleVorlesung\GenericListDemo\GenericListDemo\obj\Debug\GenericListDemo.exe
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\10 Collections\BeispieleVorlesung\GenericListDemo\GenericListDemo\obj\Debug\GenericListDemo.pdb

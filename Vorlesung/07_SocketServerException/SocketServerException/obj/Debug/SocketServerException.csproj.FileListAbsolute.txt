@@ -1,0 +1,9 @@
+D:\Dokumente\Visual Studio 2013\Projects\SocketServerException\SocketServerException\bin\Debug\SocketServerException.exe.config
+D:\Dokumente\Visual Studio 2013\Projects\SocketServerException\SocketServerException\bin\Debug\SocketServerException.exe
+D:\Dokumente\Visual Studio 2013\Projects\SocketServerException\SocketServerException\bin\Debug\SocketServerException.pdb
+D:\Dokumente\Visual Studio 2013\Projects\SocketServerException\SocketServerException\obj\Debug\SocketServerException.csprojResolveAssemblyReference.cache
+D:\Dokumente\Visual Studio 2013\Projects\SocketServerException\SocketServerException\obj\Debug\SocketServerException.exe
+D:\Dokumente\Visual Studio 2013\Projects\SocketServerException\SocketServerException\obj\Debug\SocketServerException.pdb
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketServerException\SocketServerException\bin\Debug\SocketServerException.exe.config
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketServerException\SocketServerException\obj\Debug\SocketServerException.exe
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketServerException\SocketServerException\obj\Debug\SocketServerException.pdb

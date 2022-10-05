@@ -1,0 +1,40 @@
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortException\SerialPortSimple\bin\Debug\SerialPortSimple.exe.config
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortException\SerialPortSimple\bin\Debug\SerialPortSimple.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortException\SerialPortSimple\bin\Debug\SerialPortSimple.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortException\SerialPortSimple\obj\Debug\SerialPortException.csprojResolveAssemblyReference.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortException\SerialPortSimple\obj\Debug\SerialPortSimple.Form1.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortException\SerialPortSimple\obj\Debug\SerialPortSimple.Properties.Resources.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortException\SerialPortSimple\obj\Debug\SerialPortException.csproj.GenerateResource.Cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortException\SerialPortSimple\obj\Debug\SerialPortSimple.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortException\SerialPortSimple\obj\Debug\SerialPortSimple.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\bin\Debug\SerialPortSimple.exe.config
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortSimple.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortSimple.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\bin\Debug\SerialPortSimple.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\bin\Debug\SerialPortSimple.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortException.csprojResolveAssemblyReference.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortSimple.Form1.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortSimple.Properties.Resources.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortException.csproj.GenerateResource.Cache
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\bin\Debug\SerialPortSimple.exe.config
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortSimple.exe
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\SerielleKommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortSimple.pdb
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\bin\Debug\SerialPortSimple.exe.config
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortSimple.exe
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortSimple.pdb
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\bin\Debug\SerialPortSimple.exe
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\bin\Debug\SerialPortSimple.pdb
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortException.csprojResolveAssemblyReference.cache
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortSimple.Form1.resources
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortSimple.Properties.Resources.resources
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortException.csproj.GenerateResource.Cache
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\bin\Debug\SerialPortSimple.exe.config
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\bin\Debug\SerialPortSimple.exe
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\bin\Debug\SerialPortSimple.pdb
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortException.csprojAssemblyReference.cache
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortSimple.Form1.resources
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortSimple.Properties.Resources.resources
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortException.csproj.GenerateResource.cache
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortException.csproj.CoreCompileInputs.cache
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortSimple.exe
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\06 Serielle Kommunikation\BeispieleVorlesung\SerialPortExceptionDetail\SerialPortSimple\obj\Debug\SerialPortSimple.pdb

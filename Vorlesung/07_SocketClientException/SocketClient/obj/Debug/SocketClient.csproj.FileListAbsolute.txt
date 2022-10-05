@@ -1,0 +1,31 @@
+D:\Dokumente\Visual Studio 2013\Projects\SocketClient\SocketClient\bin\Debug\SocketClient.exe.config
+D:\Dokumente\Visual Studio 2013\Projects\SocketClient\SocketClient\bin\Debug\SocketClient.exe
+D:\Dokumente\Visual Studio 2013\Projects\SocketClient\SocketClient\bin\Debug\SocketClient.pdb
+D:\Dokumente\Visual Studio 2013\Projects\SocketClient\SocketClient\obj\Debug\SocketClient.csprojResolveAssemblyReference.cache
+D:\Dokumente\Visual Studio 2013\Projects\SocketClient\SocketClient\obj\Debug\SocketClient.Form1.resources
+D:\Dokumente\Visual Studio 2013\Projects\SocketClient\SocketClient\obj\Debug\SocketClient.Properties.Resources.resources
+D:\Dokumente\Visual Studio 2013\Projects\SocketClient\SocketClient\obj\Debug\SocketClient.csproj.GenerateResource.Cache
+D:\Dokumente\Visual Studio 2013\Projects\SocketClient\SocketClient\obj\Debug\SocketClient.exe
+D:\Dokumente\Visual Studio 2013\Projects\SocketClient\SocketClient\obj\Debug\SocketClient.pdb
+D:\Dokumente\Visual Studio 2013\Projects\SocketClientException\SocketClient\bin\Debug\SocketClient.exe.config
+D:\Dokumente\Visual Studio 2013\Projects\SocketClientException\SocketClient\obj\Debug\SocketClient.exe
+D:\Dokumente\Visual Studio 2013\Projects\SocketClientException\SocketClient\obj\Debug\SocketClient.pdb
+D:\Dokumente\Visual Studio 2013\Projects\SocketClientException\SocketClient\obj\Debug\SocketClient.csprojResolveAssemblyReference.cache
+D:\Dokumente\Visual Studio 2013\Projects\SocketClientException\SocketClient\obj\Debug\SocketClient.Form1.resources
+D:\Dokumente\Visual Studio 2013\Projects\SocketClientException\SocketClient\obj\Debug\SocketClient.Properties.Resources.resources
+D:\Dokumente\Visual Studio 2013\Projects\SocketClientException\SocketClient\obj\Debug\SocketClient.csproj.GenerateResource.Cache
+D:\Dokumente\Visual Studio 2013\Projects\SocketClientException\SocketClient\bin\Debug\SocketClient.exe
+D:\Dokumente\Visual Studio 2013\Projects\SocketClientException\SocketClient\bin\Debug\SocketClient.pdb
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketClientException\SocketClient\bin\Debug\SocketClient.exe.config
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketClientException\SocketClient\obj\Debug\SocketClient.exe
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketClientException\SocketClient\obj\Debug\SocketClient.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketClientException\SocketClient\bin\Debug\SocketClient.exe.config
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketClientException\SocketClient\bin\Debug\SocketClient.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketClientException\SocketClient\bin\Debug\SocketClient.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketClientException\SocketClient\obj\Debug\SocketClient.csprojAssemblyReference.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketClientException\SocketClient\obj\Debug\SocketClient.Form1.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketClientException\SocketClient\obj\Debug\SocketClient.Properties.Resources.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketClientException\SocketClient\obj\Debug\SocketClient.csproj.GenerateResource.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketClientException\SocketClient\obj\Debug\SocketClient.csproj.CoreCompileInputs.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketClientException\SocketClient\obj\Debug\SocketClient.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\12 Netzwerkprogrammierung\Beispiele aus der Vorlesung\SocketClientException\SocketClient\obj\Debug\SocketClient.pdb

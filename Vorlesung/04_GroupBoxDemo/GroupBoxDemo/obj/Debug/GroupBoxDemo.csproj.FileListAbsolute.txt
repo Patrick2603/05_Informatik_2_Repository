@@ -1,0 +1,47 @@
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\GroupBoxDemo\GroupBoxDemo\bin\Debug\GroupBoxDemo.exe.config
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\GroupBoxDemo\GroupBoxDemo\bin\Debug\GroupBoxDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\GroupBoxDemo\GroupBoxDemo\bin\Debug\GroupBoxDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.csprojResolveAssemblyReference.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.Form1.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.Properties.Resources.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.csproj.GenerateResource.Cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\bin\Debug\GroupBoxDemo.exe.config
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\bin\Debug\GroupBoxDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\bin\Debug\GroupBoxDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.csprojResolveAssemblyReference.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.Form1.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.Properties.Resources.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.csproj.GenerateResource.Cache
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\bin\Debug\GroupBoxDemo.exe.config
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.exe
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.pdb
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\bin\Debug\GroupBoxDemo.exe
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\bin\Debug\GroupBoxDemo.pdb
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.Form1.resources
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.Properties.Resources.resources
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.csproj.GenerateResource.Cache
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.csproj.CoreCompileInputs.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\bin\Debug\GroupBoxDemo.exe.config
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\bin\Debug\GroupBoxDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\bin\Debug\GroupBoxDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.Form1.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.Properties.Resources.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.csproj.GenerateResource.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.csproj.CoreCompileInputs.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.csprojAssemblyReference.cache
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\bin\Debug\GroupBoxDemo.exe.config
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\bin\Debug\GroupBoxDemo.exe
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\bin\Debug\GroupBoxDemo.pdb
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.csprojAssemblyReference.cache
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.Form1.resources
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.Properties.Resources.resources
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.csproj.GenerateResource.cache
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.csproj.CoreCompileInputs.cache
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.exe
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\GroupBoxDemo\GroupBoxDemo\obj\Debug\GroupBoxDemo.pdb

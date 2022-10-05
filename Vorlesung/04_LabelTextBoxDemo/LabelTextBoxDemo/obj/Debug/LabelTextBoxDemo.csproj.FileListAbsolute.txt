@@ -1,0 +1,12 @@
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\LabelTextBoxDemo\LabelTextBoxDemo\bin\Debug\LabelTextBoxDemo.exe.config
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\LabelTextBoxDemo\LabelTextBoxDemo\bin\Debug\LabelTextBoxDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\LabelTextBoxDemo\LabelTextBoxDemo\bin\Debug\LabelTextBoxDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\LabelTextBoxDemo\LabelTextBoxDemo\obj\Debug\LabelTextBoxDemo.csprojResolveAssemblyReference.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\LabelTextBoxDemo\LabelTextBoxDemo\obj\Debug\LabelTextBoxDemo.Form1.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\LabelTextBoxDemo\LabelTextBoxDemo\obj\Debug\LabelTextBoxDemo.Properties.Resources.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\LabelTextBoxDemo\LabelTextBoxDemo\obj\Debug\LabelTextBoxDemo.csproj.GenerateResource.Cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\LabelTextBoxDemo\LabelTextBoxDemo\obj\Debug\LabelTextBoxDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\LabelTextBoxDemo\LabelTextBoxDemo\obj\Debug\LabelTextBoxDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\LabelTextBoxDemo\LabelTextBoxDemo\bin\Debug\LabelTextBoxDemo.exe.config
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\LabelTextBoxDemo\LabelTextBoxDemo\obj\Debug\LabelTextBoxDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\FormulareUndSteuerelemente\BeispieleVorlesung\LabelTextBoxDemo\LabelTextBoxDemo\obj\Debug\LabelTextBoxDemo.pdb

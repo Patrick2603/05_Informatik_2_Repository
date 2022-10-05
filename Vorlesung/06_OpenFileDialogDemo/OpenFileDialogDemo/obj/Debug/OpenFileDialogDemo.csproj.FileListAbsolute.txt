@@ -1,0 +1,46 @@
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\bin\Debug\OpenFileDialogDemo.exe.config
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\bin\Debug\OpenFileDialogDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\bin\Debug\OpenFileDialogDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.csprojResolveAssemblyReference.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.Form1.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.Properties.Resources.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.csproj.GenerateResource.Cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.pdb
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\bin\Debug\OpenFileDialogDemo.exe.config
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.exe
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.pdb
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\bin\Debug\OpenFileDialogDemo.exe
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\bin\Debug\OpenFileDialogDemo.pdb
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.csprojResolveAssemblyReference.cache
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.Form1.resources
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.Properties.Resources.resources
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.csproj.GenerateResource.Cache
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\bin\Debug\OpenFileDialogDemo.exe.config
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.exe
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.pdb
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\bin\Debug\OpenFileDialogDemo.exe
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\bin\Debug\OpenFileDialogDemo.pdb
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.csprojResolveAssemblyReference.cache
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.Form1.resources
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.Properties.Resources.resources
+D:\Dokumente\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.csproj.GenerateResource.Cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\bin\Debug\OpenFileDialogDemo.exe.config
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\bin\Debug\OpenFileDialogDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\bin\Debug\OpenFileDialogDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.Form1.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.Properties.Resources.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.csproj.GenerateResource.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.csproj.CoreCompileInputs.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.pdb
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\bin\Debug\OpenFileDialogDemo.exe.config
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\bin\Debug\OpenFileDialogDemo.exe
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\bin\Debug\OpenFileDialogDemo.pdb
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.csprojAssemblyReference.cache
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.Form1.resources
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.Properties.Resources.resources
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.csproj.GenerateResource.cache
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.csproj.CoreCompileInputs.cache
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.exe
+C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\11 Lesen von Dateien\BeispieleVorlesung\OpenFileDialogDemo\OpenFileDialogDemo\obj\Debug\OpenFileDialogDemo.pdb

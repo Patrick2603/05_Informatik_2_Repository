@@ -1,0 +1,12 @@
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\StreamReaderDemo\StreamReaderDemo\bin\Debug\StreamReaderDemo.exe.config
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\StreamReaderDemo\StreamReaderDemo\bin\Debug\StreamReaderDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\StreamReaderDemo\StreamReaderDemo\bin\Debug\StreamReaderDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\StreamReaderDemo\StreamReaderDemo\obj\Debug\StreamReaderDemo.csprojResolveAssemblyReference.cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\StreamReaderDemo\StreamReaderDemo\obj\Debug\StreamReaderDemo.Form1.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\StreamReaderDemo\StreamReaderDemo\obj\Debug\StreamReaderDemo.Properties.Resources.resources
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\StreamReaderDemo\StreamReaderDemo\obj\Debug\StreamReaderDemo.csproj.GenerateResource.Cache
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\StreamReaderDemo\StreamReaderDemo\obj\Debug\StreamReaderDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\StreamReaderDemo\StreamReaderDemo\obj\Debug\StreamReaderDemo.pdb
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\StreamReaderDemoUsing\StreamReaderDemo\bin\Debug\StreamReaderDemo.exe.config
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\StreamReaderDemoUsing\StreamReaderDemo\obj\Debug\StreamReaderDemo.exe
+C:\Users\mkaupp\Documents\Vorlesungen\Software Engineering 2\Projekte\Collections\BeispieleVorlesung\StreamReaderDemoUsing\StreamReaderDemo\obj\Debug\StreamReaderDemo.pdb
