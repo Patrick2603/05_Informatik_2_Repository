@@ -64,3 +64,13 @@ C:\Users\patri\OneDrive\Desktop\Code\01 Serielle Kommunikation\BeispieleVorlesun
 C:\Users\patri\OneDrive\Desktop\Code\01 Serielle Kommunikation\BeispieleVorlesung\SerialPortSimple\SerialPortSimple\obj\Debug\SerialPortSimple.csproj.CoreCompileInputs.cache
 C:\Users\patri\OneDrive\Desktop\Code\01 Serielle Kommunikation\BeispieleVorlesung\SerialPortSimple\SerialPortSimple\obj\Debug\SerialPortSimple.exe
 C:\Users\patri\OneDrive\Desktop\Code\01 Serielle Kommunikation\BeispieleVorlesung\SerialPortSimple\SerialPortSimple\obj\Debug\SerialPortSimple.pdb
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\01_SerialPortSimple\SerialPortSimple\obj\Debug\SerialPortSimple.csproj.AssemblyReference.cache
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\01_SerialPortSimple\SerialPortSimple\obj\Debug\SerialPortSimple.Form1.resources
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\01_SerialPortSimple\SerialPortSimple\obj\Debug\SerialPortSimple.Properties.Resources.resources
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\01_SerialPortSimple\SerialPortSimple\obj\Debug\SerialPortSimple.csproj.GenerateResource.cache
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\01_SerialPortSimple\SerialPortSimple\obj\Debug\SerialPortSimple.csproj.CoreCompileInputs.cache
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\01_SerialPortSimple\SerialPortSimple\obj\Debug\SerialPortSimple.exe
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\01_SerialPortSimple\SerialPortSimple\obj\Debug\SerialPortSimple.pdb
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\01_SerialPortSimple\SerialPortSimple\bin\Debug\SerialPortSimple.exe.config
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\01_SerialPortSimple\SerialPortSimple\bin\Debug\SerialPortSimple.exe
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\01_SerialPortSimple\SerialPortSimple\bin\Debug\SerialPortSimple.pdb
