@@ -24,7 +24,7 @@ namespace SerialPortSimple
         {
             SerialPort serialPort = new SerialPort();
 
-            serialPort.PortName = "COM5";
+            serialPort.PortName = "COM4";
             serialPort.BaudRate = 9600;
             /* Data Terminal Ready */ 
             serialPort.DtrEnable = true;
@@ -49,14 +49,15 @@ namespace SerialPortSimple
             /* catch errors */ 
             catch (IOException ex)  
             { 
-                textBox1.Text = ex.Message; 
+                textBox1.Text = ex.Message;
+                //textBox1.Text = "ggg";
             }
 
             /* executed in every case, needs to be specifically closed */
-            //finally 
-            //{
-            //    serialPort.Close();
-            //}
+            finally
+            {
+                serialPort.Close();
+            }
         }
     }
 }
