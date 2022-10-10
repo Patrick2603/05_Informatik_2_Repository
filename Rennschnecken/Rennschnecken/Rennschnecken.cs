@@ -9,7 +9,7 @@ namespace Rennschnecken
     internal class Rennschnecken
     {
         private int _strecke;
-        private Random _rand;
+        private Random _rand; 
 
         public Rennschnecken(Random rand, Rennschnecken schnecke1)
         {

@@ -18,21 +18,10 @@ namespace Rennschnecken
             InitializeComponent();
 
             const int STRECKEN_LÄNGE = 50;
-
+             
             Button button1 = new Button();
-            button1.DialogResult = DialogResult.OK;
-            Controls.Add(button1);
-
-            if (button1.DialogResult == DialogResult.OK)
-            {
-                Random random = new Random();
-
-                Rennschnecken schnecke1 = new Rennschnecken(random);
-                Rennschnecken schnecke2 = new Rennschnecken(random);
-                Rennschnecken schnecke3 = new Rennschnecken(random);
-
-                
-            }
+            //button1.DialogResult = DialogResult.OK;
+            //Controls.Add(button1);
 
             do
             {
@@ -44,21 +33,19 @@ namespace Rennschnecken
             }
             while ((schnecke1.Strecke < STRECKEN_LÄNGE) && (schnecke2.Strecke < STRECKEN_LÄNGE) && (schnecke3.Strecke < STRECKEN_LÄNGE));
 
-            //Console.Clear();
-            Console.WriteLine(schnecke1.Visualisierung);
-            Console.WriteLine(schnecke2.Visualisierung);
-            Console.WriteLine(schnecke3.Visualisierung);
-
-            
+            Console.Clear();
+            textBox1.Text(schnecke1.Visualisierung);
+            textBox1.Text(schnecke2.Visualisierung);
+            textBox1.Text(schnecke3.Visualisierung); 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
+            Random rand = new Random();
 
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
+            Rennschnecken schnecke1 = new Rennschnecken(rand);
+            Rennschnecken schnecke2 = new Rennschnecken(rand);
+            Rennschnecken schnecke3 = new Rennschnecken(rand);
 
         }
     }
