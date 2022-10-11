@@ -16,11 +16,6 @@ namespace Rennschnecken
         public Form1()
         {
             InitializeComponent();
-
-            Button button1 = new Button();
-            //button1.DialogResult = DialogResult.OK;
-            //Controls.Add(button1);
-
         }
         public void button1_Click(object sender, EventArgs e)
         {
