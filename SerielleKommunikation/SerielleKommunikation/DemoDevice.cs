@@ -15,6 +15,20 @@ namespace SerielleKommunikation
         private string _deviceName;
         private int _currentNumber;
 
+        public string SerialNumber
+        {
+
+        }
+
+        public string DeviceName
+        {
+
+        }
+
+        public int CurrentNumber
+        {
+
+        }
 
 
         private enum CommandBytes   /* defines for arduino access */ 
@@ -29,23 +43,35 @@ namespace SerielleKommunikation
 
         public void Connect(int portNumber)     /* connect to arduino */
         {
-            serialPort.PortName = "COM4";
+            serialPort.PortName = COMPort;
             serialPort.BaudRate = 9600;
             serialPort.DtrEnable = true;
+            serialPort.Open(); 
 
-            if ()   /* if connection is ok */
-            {
-                ReadDeviceInfo();
-            }
-
-            
+            ReadDeviceInfo(); 
         }
 
         private int ReadDeviceInfo()
         {
+            //Device Name
+            byte[] sendName = new byte[] { 0x7F };
+            serialPort.Write(sendName, 0, 1);
+            string deviceName = serialPort.ReadLine();
 
+            //Serial Number
+            byte[] sendNumber = new byte[] { 0x7E };
+            serialPort.Write(sendNumber, 0, 1);
+            string serialNumber = serialPort.ReadLine();
 
-            return 0;
+            //Counter
+            byte[] sendCounter = new byte[] { 0x7D };
+            serialPort.Write(sendCounter, 0 ,1);
+            string Counter = serialPort.ReadLine();
+            int counter = Int16.Parse(Counter);
+
+            set{ DeviceName deviceName}; 
+            set{ SerialNumber serialNumber}; 
+            set{ CurrentNumber counter}; 
         }
 
         public void Disconnect()

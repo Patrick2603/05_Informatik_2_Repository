@@ -46,9 +46,9 @@ namespace SerielleKommunikation
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(323, 12);
+            this.button1.Location = new System.Drawing.Point(354, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 56);
+            this.button1.Size = new System.Drawing.Size(169, 56);
             this.button1.TabIndex = 1;
             this.button1.Text = "verbinden";
             this.button1.UseVisualStyleBackColor = true;
