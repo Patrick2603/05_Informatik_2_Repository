@@ -15,19 +15,19 @@ namespace SerielleKommunikation
         private string _deviceName;
         private int _currentNumber;
 
-        public string SerialNumber
-        {
-
-        }
-
         public string DeviceName
         {
+            get{ deviceName }; 
+        }
 
+        public string SerialNumber
+        {
+            get{ serialNumber };
         }
 
         public int CurrentNumber
         {
-
+            get{ counter };
         }
 
 
@@ -40,7 +40,7 @@ namespace SerielleKommunikation
             SendSerialNumber = 0x7E,
             SendDeviceName = 0x7F
         }
-
+	
         public void Connect(int portNumber)     /* connect to arduino */
         {
             serialPort.PortName = COMPort;

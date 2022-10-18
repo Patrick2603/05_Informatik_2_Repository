@@ -95,7 +95,7 @@ namespace SerielleKommunikation
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Name = "DemoDeviceTester";
-            this.Text = "Form1";
+            this.Text = "DemoDeviceTester";
             this.ResumeLayout(false);
             this.PerformLayout();
 
