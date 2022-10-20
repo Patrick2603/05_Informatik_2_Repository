@@ -9,7 +9,6 @@ namespace SerielleKommunikation
 {
     class DemoDevice
     {
-        DemoDevice geraet1 = new DemoDevice();
         SerialPort serialPort = new SerialPort();
         private string _serialNumber;
         private string _deviceName;
@@ -17,17 +16,38 @@ namespace SerielleKommunikation
 
         public string DeviceName
         {
-            get{ deviceName }; 
+            get
+            {
+                return _deviceName;
+            }
+            set
+            {
+                _deviceName = value;
+            }
         }
 
         public string SerialNumber
         {
-            get{ serialNumber };
+            get
+            {
+                return _serialNumber; 
+            }
+            set
+            {
+                _serialNumber = value; 
+            }
         }
 
         public int CurrentNumber
         {
-            get{ counter };
+            get
+            {
+                return _currentNumber;
+            }
+            set
+            {
+                _currentNumber = value;
+            }
         }
 
 
@@ -43,12 +63,15 @@ namespace SerielleKommunikation
 	
         public void Connect(int portNumber)     /* connect to arduino */
         {
-            serialPort.PortName = COMPort;
-            serialPort.BaudRate = 9600;
-            serialPort.DtrEnable = true;
-            serialPort.Open(); 
+            if(serialPort.IsOpen != 0)
+            {
+                serialPort.PortName = COMPort;
+                serialPort.BaudRate = 9600;
+                serialPort.DtrEnable = true;
+                serialPort.Open();
 
-            ReadDeviceInfo(); 
+                ReadDeviceInfo();
+            }
         }
 
         private int ReadDeviceInfo()
@@ -56,18 +79,18 @@ namespace SerielleKommunikation
             //Device Name
             byte[] sendName = new byte[] { 0x7F };
             serialPort.Write(sendName, 0, 1);
-            string deviceName = serialPort.ReadLine();
+            _deviceName = serialPort.ReadLine();
 
             //Serial Number
             byte[] sendNumber = new byte[] { 0x7E };
             serialPort.Write(sendNumber, 0, 1);
-            string serialNumber = serialPort.ReadLine();
+            _serialNumber = serialPort.ReadLine();
 
             //Counter
             byte[] sendCounter = new byte[] { 0x7D };
             serialPort.Write(sendCounter, 0 ,1);
-            string Counter = serialPort.ReadLine();
-            int counter = Int16.Parse(Counter);
+            _currentNumber = serialPort.ReadLine();
+            int counter = Int16.Parse(_currentNumber);
 
             set{ DeviceName deviceName}; 
             set{ SerialNumber serialNumber}; 

@@ -12,51 +12,41 @@ namespace SerielleKommunikation
 {
     public partial class DemoDeviceTester : Form
     {
+        private DemoDevice _device;
+
         public DemoDeviceTester()
         {
             InitializeComponent();
-            DemoDeviceTester device = new DemoDeviceTester();
+            DemoDevice device = new DemoDevice();
             _device = device; 
         }
-        
-        private DemoDeviceTester _device = new DemoDeviceTester(); 
 
         public void button1_Click(object sender, EventArgs e)
         {
             //connection to arduino
             int portNumber = 4;
-            Connect(portNumber);
-
-            //Device Name
-            byte[] sendName = new byte[] { 0x7F };
-            serialPort.Write(sendName, 0, 1);
-            string deviceName = serialPort.ReadLine();
-
-            //Serial Number
-            byte[] sendNumber = new byte[] { 0x7E };
-            serialPort.Write(sendNumber, 0, 1);
-            string serialNumber = serialPort.ReadLine();
-
-            textBox1.Text(deviceName);
-            textBox1.Text(serialNumber);
+            _device.Connect(portNumber);
+            textBox1.Clear();
+            textBox1.Text = "Gerät: " + _device.DeviceName + Environment.NewLine;
+            textBox1.Text += "S/N: " + _device.SerialNumber + Environment.NewLine;
         }
         
         private void button2_Click(object sender, EventArgs e)
         {
             //increase counter
-            Increment(_device);
+            _device.Increment(); 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             //decrease counter
-            Decrement(_device);
+            _device.Decrement(); 
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             //reset counter
-            Reset(_device);
+            _device.Reset(); 
         }
     }
 }
