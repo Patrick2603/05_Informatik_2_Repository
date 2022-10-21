@@ -12,15 +12,15 @@ namespace SerielleKommunikation
 {
     public partial class DemoDeviceTester : Form
     {
-        private DemoDevice _device;
+        DemoDevice _device = new DemoDevice(); 
 
         public DemoDeviceTester()
         {
             InitializeComponent();
-            DemoDevice device = new DemoDevice();
-            _device = device; 
+            //DemoDevice device = new DemoDevice();
+            //_device = device; 
         }
-
+        
         public void button1_Click(object sender, EventArgs e)
         {
             //connection to arduino
