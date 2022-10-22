@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO.Ports; 
+using System.IO.Ports;
+using System.Threading;
+using System.IO; 
 
 namespace SerielleKommunikation
 {
@@ -63,13 +65,21 @@ namespace SerielleKommunikation
 	
         public void Connect(int portNumber)     /* connect to arduino */
         {
-            string COMPort = "COM20";  
-            serialPort.PortName = COMPort;
+            string COMPort = "6";  
+            serialPort.PortName = "COM " + COMPort;
             serialPort.BaudRate = 9600;
             serialPort.DtrEnable = true;
-            serialPort.Open();
 
-            ReadDeviceInfo();
+            try
+            {
+                serialPort.Open();
+                Thread.Sleep(500);
+                ReadDeviceInfo(); 
+            }
+            catch(IOException)
+            {
+
+            }
         }
 
         private void ReadDeviceInfo()
@@ -87,12 +97,7 @@ namespace SerielleKommunikation
             //Counter
             byte[] sendCounter = new byte[] { 0x7D };
             serialPort.Write(sendCounter, 0 ,1);
-            CurrentNumber = Int16.Parse(serialPort.ReadLine());
-
-            
-            //set{ DeviceName deviceName}; 
-            //set{ SerialNumber serialNumber}; 
-            //set{ CurrentNumber counter}; 
+            CurrentNumber = Int16.Parse(serialPort.ReadLine()); 
         }
 
         public void Disconnect()

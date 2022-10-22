@@ -8,3 +8,4 @@ C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Se
 C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\SerielleKommunikation\SerielleKommunikation\obj\Debug\SerielleKommunikation.csproj.CoreCompileInputs.cache
 C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\SerielleKommunikation\SerielleKommunikation\obj\Debug\SerielleKommunikation.exe
 C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\SerielleKommunikation\SerielleKommunikation\obj\Debug\SerielleKommunikation.pdb
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\SerielleKommunikation\SerielleKommunikation\obj\Debug\SerielleKommunikation.csproj.SuggestedBindingRedirects.cache
