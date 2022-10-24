@@ -65,21 +65,20 @@ namespace SerielleKommunikation
 	
         public void Connect(int portNumber)     /* connect to arduino */
         {
-            string COMPort = "6";  
-            serialPort.PortName = "COM " + COMPort;
+            serialPort.PortName = "COM" + portNumber;
             serialPort.BaudRate = 9600;
             serialPort.DtrEnable = true;
-
             try
             {
                 serialPort.Open();
                 Thread.Sleep(500);
-                ReadDeviceInfo(); 
+                ReadDeviceInfo();
             }
             catch(IOException)
             {
 
             }
+            
         }
 
         private void ReadDeviceInfo()
