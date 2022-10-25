@@ -52,13 +52,6 @@ namespace SerielleKommunikation
             }
         }
 
-        CommandBytes command_Increment = CommandBytes.CounterIncrement;
-        CommandBytes command_Decrement = CommandBytes.CounterDecrement;
-        CommandBytes command_Reset = CommandBytes.CounterReset;
-        CommandBytes command_SendCounterReading = CommandBytes.SendCounter;
-        CommandBytes command_SendSerialNumber = CommandBytes.SendSerialNumber;
-        CommandBytes command_SendDeviceName = CommandBytes.SendDeviceName;
-
         private enum CommandBytes   /* defines for arduino access */ 
         {
             CounterReset = 0x7A,
@@ -78,29 +71,28 @@ namespace SerielleKommunikation
             {
                 serialPort.Open();
                 Thread.Sleep(2000);
-                ReadDeviceInfo();
+                ReadDeviceInfo(); 
             }
             catch(IOException)
             {
 
             }
-            
         }
 
         private void ReadDeviceInfo()
         {
             //Device Name
-            byte[] sendName = new byte[] { (byte)command_SendDeviceName };
+            byte[] sendName = new byte[] { (byte)CommandBytes.SendDeviceName };
             serialPort.Write(sendName, 0, 1);
             DeviceName = serialPort.ReadLine();
 
             //Serial Number
-            byte[] sendNumber = new byte[] { (byte)command_SendSerialNumber };
+            byte[] sendNumber = new byte[] { (byte)CommandBytes.SendSerialNumber };
             serialPort.Write(sendNumber, 0, 1);
             SerialNumber = serialPort.ReadLine();
 
             //Counter
-            byte[] sendCounter = new byte[] { (byte)command_SendCounterReading };
+            byte[] sendCounter = new byte[] { (byte)CommandBytes.SendCounter };
             serialPort.Write(sendCounter, 0 ,1);
             CurrentNumber = Int16.Parse(serialPort.ReadLine()); 
         }
@@ -114,7 +106,7 @@ namespace SerielleKommunikation
         {
             if (serialPort.IsOpen)
             { 
-                byte[] inc = new byte[] { (byte)command_Increment };
+                byte[] inc = new byte[] { (byte)CommandBytes.CounterIncrement };
                 serialPort.Write(inc, 0, 1); 
             }
         }
@@ -123,7 +115,7 @@ namespace SerielleKommunikation
         {
             if (serialPort.IsOpen)
             {
-                byte[] dec = new byte[] { (byte)command_Decrement };
+                byte[] dec = new byte[] { (byte)CommandBytes.CounterDecrement };
                 serialPort.Write(dec, 0, 1);
             }
         }
@@ -132,7 +124,7 @@ namespace SerielleKommunikation
         {
             if (serialPort.IsOpen)
             {
-                byte[] res = new byte[] { (byte)command_Reset };
+                byte[] res = new byte[] { (byte)CommandBytes.CounterReset };
                 serialPort.Write(res, 0, 1);
             }
         }

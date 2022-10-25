@@ -12,8 +12,8 @@ namespace SerielleKommunikation
 {
     public partial class DemoDeviceTester : Form
     {
-        DemoDevice _device = new DemoDevice(); 
-
+        private DemoDevice _device; 
+        
         public DemoDeviceTester()
         {
             InitializeComponent();
