@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO.Ports; 
+using System.IO.Ports;
+using System.Threading;
+using System.IO; 
 
 namespace SerielleKommunikation
 {
     class DemoDevice
     {
-        DemoDevice geraet1 = new DemoDevice();
         SerialPort serialPort = new SerialPort();
         private string _serialNumber;
         private string _deviceName;
@@ -17,25 +18,45 @@ namespace SerielleKommunikation
 
         public string DeviceName
         {
-            get{ deviceName }; 
+            get
+            {
+                return _deviceName;
+            }
+            set
+            {
+                _deviceName = value;
+            }
         }
 
         public string SerialNumber
         {
-            get{ serialNumber };
+            get
+            {
+                return _serialNumber; 
+            }
+            set
+            {
+                _serialNumber = value; 
+            }
         }
 
         public int CurrentNumber
         {
-            get{ counter };
+            get
+            {
+                return _currentNumber;
+            }
+            set
+            {
+                _currentNumber = value;
+            }
         }
-
 
         private enum CommandBytes   /* defines for arduino access */ 
         {
-            SetCounterzero = 0x7A,
-            CounterDecrease = 0x7B,
-            CounterIncrease = 0x7C,
+            CounterReset = 0x7A,
+            CounterDecrement = 0x7B,
+            CounterIncrement = 0x7C,
             SendCounter = 0x7D,
             SendSerialNumber = 0x7E,
             SendDeviceName = 0x7F
@@ -43,35 +64,37 @@ namespace SerielleKommunikation
 	
         public void Connect(int portNumber)     /* connect to arduino */
         {
-            serialPort.PortName = COMPort;
+            serialPort.PortName = "COM" + portNumber;
             serialPort.BaudRate = 9600;
             serialPort.DtrEnable = true;
-            serialPort.Open(); 
+            try
+            {
+                serialPort.Open();
+                Thread.Sleep(2000);
+                ReadDeviceInfo(); 
+            }
+            catch(IOException)
+            {
 
-            ReadDeviceInfo(); 
+            }
         }
 
-        private int ReadDeviceInfo()
+        private void ReadDeviceInfo()
         {
             //Device Name
-            byte[] sendName = new byte[] { 0x7F };
+            byte[] sendName = new byte[] { (byte)CommandBytes.SendDeviceName };
             serialPort.Write(sendName, 0, 1);
-            string deviceName = serialPort.ReadLine();
+            DeviceName = serialPort.ReadLine();
 
             //Serial Number
-            byte[] sendNumber = new byte[] { 0x7E };
+            byte[] sendNumber = new byte[] { (byte)CommandBytes.SendSerialNumber };
             serialPort.Write(sendNumber, 0, 1);
-            string serialNumber = serialPort.ReadLine();
+            SerialNumber = serialPort.ReadLine();
 
             //Counter
-            byte[] sendCounter = new byte[] { 0x7D };
+            byte[] sendCounter = new byte[] { (byte)CommandBytes.SendCounter };
             serialPort.Write(sendCounter, 0 ,1);
-            string Counter = serialPort.ReadLine();
-            int counter = Int16.Parse(Counter);
-
-            set{ DeviceName deviceName}; 
-            set{ SerialNumber serialNumber}; 
-            set{ CurrentNumber counter}; 
+            CurrentNumber = Int16.Parse(serialPort.ReadLine()); 
         }
 
         public void Disconnect()
@@ -83,7 +106,7 @@ namespace SerielleKommunikation
         {
             if (serialPort.IsOpen)
             { 
-                byte[] inc = new byte[] { 0x7C };
+                byte[] inc = new byte[] { (byte)CommandBytes.CounterIncrement };
                 serialPort.Write(inc, 0, 1); 
             }
         }
@@ -92,7 +115,7 @@ namespace SerielleKommunikation
         {
             if (serialPort.IsOpen)
             {
-                byte[] dec = new byte[] { 0x7B };
+                byte[] dec = new byte[] { (byte)CommandBytes.CounterDecrement };
                 serialPort.Write(dec, 0, 1);
             }
         }
@@ -101,7 +124,7 @@ namespace SerielleKommunikation
         {
             if (serialPort.IsOpen)
             {
-                byte[] res = new byte[] { 0x7A };
+                byte[] res = new byte[] { (byte)CommandBytes.CounterReset };
                 serialPort.Write(res, 0, 1);
             }
         }
