@@ -14,11 +14,14 @@ namespace SerielleKommunikation
     {
         private DemoDevice _device; 
         
+        
         public DemoDeviceTester()
         {
             InitializeComponent();
             DemoDevice device = new DemoDevice();
             _device = device;
+            /* Event-Handler als Beobachter anmelden {attribut.name-des-events += event-handler} */
+            //_device.PropertyChangedHandler += OnDevicePropertyChanged; 
         }
         
         public void button1_Click(object sender, EventArgs e)
@@ -47,6 +50,12 @@ namespace SerielleKommunikation
         {
             //reset counter
             _device.Reset(); 
+        }
+
+        /* Event-Handler */
+        private void OnDevicePropertyChanged(DemoDevice _deviceName, DemoDevice _currentNumber, DemoDevice _serialNumber)
+        {
+           
         }
     }
 }

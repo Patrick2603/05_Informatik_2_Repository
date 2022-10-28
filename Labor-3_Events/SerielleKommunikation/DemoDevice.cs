@@ -12,9 +12,15 @@ namespace SerielleKommunikation
     class DemoDevice
     {
         SerialPort serialPort = new SerialPort();
+        /* Schritt 1: Delegate für Event-Handler anlegen */
+        public delegate void PropertyChangedHandler(DemoDevice source, string propertyName);
+        /* Schritt 2: Event anlegen */
+        public event PropertyChangedHandler PropertyChanged;
+        /* Attributes */ 
         private string _serialNumber;
         private string _deviceName;
         private int _currentNumber;
+        
 
         public string DeviceName
         {
@@ -25,6 +31,7 @@ namespace SerielleKommunikation
             set
             {
                 _deviceName = value;
+                OnPropertyChanged(_deviceName);
             }
         }
 
@@ -36,7 +43,8 @@ namespace SerielleKommunikation
             }
             set
             {
-                _serialNumber = value; 
+                _serialNumber = value;
+                OnPropertyChanged(_serialNumber);
             }
         }
 
@@ -49,6 +57,7 @@ namespace SerielleKommunikation
             set
             {
                 _currentNumber = value;
+                OnPropertyChanged(Convert.ToString(_currentNumber));
             }
         }
 
@@ -126,6 +135,17 @@ namespace SerielleKommunikation
             {
                 byte[] res = new byte[] { (byte)CommandBytes.CounterReset };
                 serialPort.Write(res, 0, 1);
+            }
+        }
+
+        /* Schritt 3: Event im Code auslösen */
+        private void OnPropertyChanged(string propertyName)
+        {
+            /* check if event is existing */
+            if (PropertyChanged != null)
+            {
+                /* execute event */
+                OnPropertyChanged(propertyName);
             }
         }
     }
