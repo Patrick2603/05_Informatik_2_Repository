@@ -20,8 +20,8 @@ namespace SerielleKommunikation
             InitializeComponent();
             DemoDevice device = new DemoDevice();
             _device = device;
-            /* Event-Handler als Beobachter anmelden {attribut.name-des-events += event-handler} */
-            //_device.PropertyChangedHandler += OnDevicePropertyChanged; 
+            /* Event-Handler als Beobachter anmelden */
+            _device.PropertyChanged += OnDevicePropertyChanged; 
         }
         
         public void button1_Click(object sender, EventArgs e)
@@ -53,9 +53,23 @@ namespace SerielleKommunikation
         }
 
         /* Event-Handler */
-        private void OnDevicePropertyChanged(DemoDevice _deviceName, DemoDevice _currentNumber, DemoDevice _serialNumber)
+        private void OnDevicePropertyChanged(DemoDevice source, string propertyName)
         {
-           
+           switch(propertyName)
+            {
+                case "SerialNumber":
+                    textBox1.Text = "Serienummer geändert! " + source.SerialNumber;
+                    break;
+                case "DeviceName":
+                    textBox1.Text = "Gerätename geändert! " + source.DeviceName;
+                    break;
+                case "CurrentNumber":
+                    textBox1.Text = "Zählerstand geändert! " + source.CurrentNumber;
+                    break;
+                default:
+                    textBox1.Text = ""; 
+                    break; 
+            }
         }
     }
 }

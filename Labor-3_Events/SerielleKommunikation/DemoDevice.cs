@@ -31,7 +31,7 @@ namespace SerielleKommunikation
             set
             {
                 _deviceName = value;
-                OnPropertyChanged(_deviceName);
+                OnPropertyChanged("DeviceName");
             }
         }
 
@@ -44,7 +44,7 @@ namespace SerielleKommunikation
             set
             {
                 _serialNumber = value;
-                OnPropertyChanged(_serialNumber);
+                OnPropertyChanged("SerialNumber");
             }
         }
 
@@ -57,7 +57,7 @@ namespace SerielleKommunikation
             set
             {
                 _currentNumber = value;
-                OnPropertyChanged(Convert.ToString(_currentNumber));
+                OnPropertyChanged("CurrentNumber");
             }
         }
 
@@ -116,7 +116,8 @@ namespace SerielleKommunikation
             if (serialPort.IsOpen)
             { 
                 byte[] inc = new byte[] { (byte)CommandBytes.CounterIncrement };
-                serialPort.Write(inc, 0, 1); 
+                serialPort.Write(inc, 0, 1);
+                CurrentNumber = _currentNumber + 1;
             }
         }
 
@@ -126,6 +127,7 @@ namespace SerielleKommunikation
             {
                 byte[] dec = new byte[] { (byte)CommandBytes.CounterDecrement };
                 serialPort.Write(dec, 0, 1);
+                CurrentNumber = _currentNumber - 1; 
             }
         }
 
@@ -135,17 +137,18 @@ namespace SerielleKommunikation
             {
                 byte[] res = new byte[] { (byte)CommandBytes.CounterReset };
                 serialPort.Write(res, 0, 1);
+                CurrentNumber = 0; 
             }
         }
 
-        /* Schritt 3: Event im Code auslösen */
+        /* Schritt 3: Zwischenfunktion die aufgerufen wird um überhaupt in den Event Handler rein zu kommen */
         private void OnPropertyChanged(string propertyName)
         {
             /* check if event is existing */
             if (PropertyChanged != null)
             {
                 /* execute event */
-                OnPropertyChanged(propertyName);
+                PropertyChanged(this, propertyName);
             }
         }
     }
