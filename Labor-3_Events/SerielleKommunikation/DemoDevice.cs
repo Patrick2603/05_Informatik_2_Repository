@@ -12,16 +12,16 @@ namespace SerielleKommunikation
     class DemoDevice
     {
         SerialPort serialPort = new SerialPort();
-        /* Schritt 1: Delegate für Event-Handler anlegen */
+        /* Schritt 1: Delegattyp für Event-Handler anlegen */
         public delegate void PropertyChangedHandler(DemoDevice source, string propertyName);
-        /* Schritt 2: Event anlegen */
+        /* Schritt 2: Event in der auslösenden Klasse anlegen */
         public event PropertyChangedHandler PropertyChanged;
         /* Attributes */ 
         private string _serialNumber;
         private string _deviceName;
         private int _currentNumber;
         
-
+        /* Properties */
         public string DeviceName
         {
             get

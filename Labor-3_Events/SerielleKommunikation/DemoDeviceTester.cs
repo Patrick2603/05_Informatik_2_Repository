@@ -14,13 +14,12 @@ namespace SerielleKommunikation
     {
         private DemoDevice _device; 
         
-        
         public DemoDeviceTester()
         {
             InitializeComponent();
             DemoDevice device = new DemoDevice();
             _device = device;
-            /* Event-Handler als Beobachter anmelden */
+            /* Schritt 5: Event-Handler als Beobachter anmelden */
             _device.PropertyChanged += OnDevicePropertyChanged; 
         }
         
@@ -52,7 +51,7 @@ namespace SerielleKommunikation
             _device.Reset(); 
         }
 
-        /* Event-Handler */
+        /* Schritt 4: Event-Handler */
         private void OnDevicePropertyChanged(DemoDevice source, string propertyName)
         {
            switch(propertyName)
@@ -67,7 +66,7 @@ namespace SerielleKommunikation
                     textBox1.Text = "Zählerstand geändert! " + source.CurrentNumber;
                     break;
                 default:
-                    textBox1.Text = ""; 
+                    textBox1.Text = "Keine Änderung! "; 
                     break; 
             }
         }
