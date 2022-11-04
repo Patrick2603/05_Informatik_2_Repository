@@ -48,3 +48,13 @@ C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\09 Formular
 C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\BierAuswahl\BierAuswahl\obj\Debug\BierAuswahl.csproj.CoreCompileInputs.cache
 C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\BierAuswahl\BierAuswahl\obj\Debug\BierAuswahl.exe
 C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\09 Formulare und Steuerelemente\BeispieleVorlesung\BierAuswahl\BierAuswahl\obj\Debug\BierAuswahl.pdb
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\04_BierAuswahl\BierAuswahl\bin\Debug\BierAuswahl.exe.config
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\04_BierAuswahl\BierAuswahl\bin\Debug\BierAuswahl.exe
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\04_BierAuswahl\BierAuswahl\bin\Debug\BierAuswahl.pdb
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\04_BierAuswahl\BierAuswahl\obj\Debug\BierAuswahl.csproj.AssemblyReference.cache
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\04_BierAuswahl\BierAuswahl\obj\Debug\BierAuswahl.Form1.resources
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\04_BierAuswahl\BierAuswahl\obj\Debug\BierAuswahl.Properties.Resources.resources
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\04_BierAuswahl\BierAuswahl\obj\Debug\BierAuswahl.csproj.GenerateResource.cache
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\04_BierAuswahl\BierAuswahl\obj\Debug\BierAuswahl.csproj.CoreCompileInputs.cache
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\04_BierAuswahl\BierAuswahl\obj\Debug\BierAuswahl.exe
+C:\Daten\00_Studium_mir\Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\04_BierAuswahl\BierAuswahl\obj\Debug\BierAuswahl.pdb
