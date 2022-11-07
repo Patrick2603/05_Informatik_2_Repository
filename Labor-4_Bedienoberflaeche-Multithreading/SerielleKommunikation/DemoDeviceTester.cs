@@ -53,23 +53,42 @@ namespace SerielleKommunikation
         }
 
         /* Schritt 4: Event-Handler */
-        private void OnDevicePropertyChanged(DemoDevice source, string propertyName)
+        private void OnDevicePropertyChanged(DemoDevice device, string propertyName)
         {
-           switch(propertyName)
+            if (propertyName == "ConnectionState")
             {
-                case "SerialNumber":
-                    textBox1.Text = "Serienummer geändert! " + source.SerialNumber;
-                    break;
-                case "DeviceName":
-                    textBox1.Text = "Gerätename geändert! " + source.DeviceName;
-                    break;
-                case "CurrentNumber":
-                    textBox1.Text = "Zählerstand geändert! " + source.CurrentNumber;
-                    break;
-                default:
-                    textBox1.Text = "Keine Änderung! "; 
-                    break; 
+                this.Invoke((MethodInvoker)(() => { SetConnectionState(device.ConnectionState); }));
             }
+            //else if (propertyName == "DeviceName")
+            //{
+            //    this.Invoke((MethodInvoker)(() => { toolStripDeviceName.Text = device.DeviceName; }));
+            //}
+            //else if (propertyName == "SerialNumber")
+            //{
+            //    this.Invoke((MethodInvoker)(() => { toolStripDeviceNumber.Text = device.SerialNumber; }));
+
+            //}
+            //else if (propertyName == "CurrentNumber")
+            //{
+            //    this.Invoke((MethodInvoker)(() => { currentNumber.Text = device.CurrentNumber.ToString("D4"); }));
+            //}
+        }
+
+        private void SetConnectionState(DemoDevice.ConnectionStates connectionState)
+        {
+            switch (connectionState)
+            {
+                case DemoDevice.ConnectionStates.Connected:
+                    toolStripStatus.Text = "Verbunden";
+                    break;
+                case DemoDevice.ConnectionStates.Connecting:
+                    toolStripStatus.Text = "Verbinde...";
+                    break;
+                case DemoDevice.ConnectionStates.Disconnected:
+                    toolStripStatus.Text = "Nicht verbunden.";
+                    break;
+            }
+
         }
     }
 }

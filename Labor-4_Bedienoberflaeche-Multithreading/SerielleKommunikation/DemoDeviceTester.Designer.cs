@@ -154,6 +154,7 @@ namespace SerielleKommunikation
             // 
             this.toolStripStatus.Name = "toolStripStatus";
             this.toolStripStatus.Size = new System.Drawing.Size(0, 17);
+            this.toolStripStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // toolStripDeviceName
             // 
@@ -164,6 +165,7 @@ namespace SerielleKommunikation
             // 
             this.toolStripDeviceNumber.Name = "toolStripDeviceNumber";
             this.toolStripDeviceNumber.Size = new System.Drawing.Size(0, 17);
+            this.toolStripDeviceNumber.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // DemoDeviceTester
             // 
