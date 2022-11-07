@@ -58,8 +58,11 @@ namespace SerielleKommunikation
             }
             set
             {
-                _currentNumber = value;
-                OnPropertyChanged("CurrentNumber");
+                if(_currentNumber != value)
+                {
+                    _currentNumber = value;
+                    OnPropertyChanged("CurrentNumber");
+                }
             }
         }
 
@@ -71,8 +74,8 @@ namespace SerielleKommunikation
             }
             set
             {
-                _connectionState = value; 
-
+                _connectionState = value;
+                OnPropertyChanged("ConnectionState");
             }
         }
 
@@ -96,11 +99,12 @@ namespace SerielleKommunikation
         public void Connect(int portNumber)     /* connect to arduino */
         {
             ConnectionState = ConnectionStates.Connecting; 
-            serialPort.PortName = "COM" + portNumber;
-            serialPort.BaudRate = 9600;
-            serialPort.DtrEnable = true;
+            
             try
             {
+                serialPort.PortName = "COM" + portNumber;
+                serialPort.BaudRate = 9600;
+                serialPort.DtrEnable = true;
                 serialPort.Open();
                 Thread.Sleep(2000);
                 ReadDeviceInfo();
@@ -126,10 +130,10 @@ namespace SerielleKommunikation
 
             //Counter
             byte[] sendCounter = new byte[] { (byte)CommandBytes.SendCounter };
-            serialPort.Write(sendCounter, 0 ,1);
-            CurrentNumber = Int16.Parse(serialPort.ReadLine()); 
-        }
-
+            serialPort.Write(sendCounter, 0, 1);
+            CurrentNumber = Int16.Parse(serialPort.ReadLine());
+        }    
+        
         public void Disconnect()
         {
             serialPort.Close();
