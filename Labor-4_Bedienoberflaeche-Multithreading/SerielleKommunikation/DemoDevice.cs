@@ -142,22 +142,26 @@ namespace SerielleKommunikation
 
         public void Increment()
         {
-            if (serialPort.IsOpen)
-            { 
-                byte[] inc = new byte[] { (byte)CommandBytes.CounterIncrement };
-                serialPort.Write(inc, 0, 1);
-                CurrentNumber = _currentNumber + 1;
+            if ((_currentNumber == 9999))
+            {
+                CurrentNumber = 0;
             }
+            CurrentNumber = _currentNumber + 1;
+            //if (serialPort.IsOpen)
+            //{ 
+            //    byte[] inc = new byte[] { (byte)CommandBytes.CounterIncrement };
+            //    serialPort.Write(inc, 0, 1);
+            //    CurrentNumber = _currentNumber + 1;
+            //}
         }
 
         public void Decrement()
         {
-            if (serialPort.IsOpen)
+            if(_currentNumber == 0)
             {
-                byte[] dec = new byte[] { (byte)CommandBytes.CounterDecrement };
-                serialPort.Write(dec, 0, 1);
-                CurrentNumber = _currentNumber - 1; 
+                CurrentNumber = 9999; 
             }
+            CurrentNumber = _currentNumber - 1; 
         }
 
         public void Reset()

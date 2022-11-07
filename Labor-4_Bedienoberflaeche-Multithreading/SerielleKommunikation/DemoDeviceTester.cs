@@ -84,13 +84,13 @@ namespace SerielleKommunikation
             switch (connectionState)
             {
                 case DemoDevice.ConnectionStates.Connected:
-                    toolStripStatus.Text = "Verbunden";
+                    toolStripDeviceStatus.Text = "Verbunden";
                     break;
                 case DemoDevice.ConnectionStates.Connecting:
-                    toolStripStatus.Text = "Verbinde...";
+                    toolStripDeviceStatus.Text = "Verbinde...";
                     break;
                 case DemoDevice.ConnectionStates.Disconnected:
-                    toolStripStatus.Text = "Nicht verbunden.";
+                    toolStripDeviceStatus.Text = "Nicht verbunden.";
                     break;
             }
         }

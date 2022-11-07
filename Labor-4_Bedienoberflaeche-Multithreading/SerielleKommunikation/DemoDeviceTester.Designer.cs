@@ -39,7 +39,7 @@ namespace SerielleKommunikation
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatus = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripDeviceStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripDeviceName = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripDeviceNumber = new System.Windows.Forms.ToolStripStatusLabel();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -48,12 +48,15 @@ namespace SerielleKommunikation
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(11, 196);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.textBox1.Location = new System.Drawing.Point(11, 203);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(118, 46);
+            this.textBox1.Size = new System.Drawing.Size(118, 34);
             this.textBox1.TabIndex = 0;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // verbinden
             // 
@@ -141,7 +144,7 @@ namespace SerielleKommunikation
             // statusStrip1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatus,
+            this.toolStripDeviceStatus,
             this.toolStripDeviceName,
             this.toolStripDeviceNumber});
             this.statusStrip1.Location = new System.Drawing.Point(0, 344);
@@ -150,11 +153,10 @@ namespace SerielleKommunikation
             this.statusStrip1.TabIndex = 9;
             this.statusStrip1.Text = "statusStrip1";
             // 
-            // toolStripStatus
+            // toolStripDeviceStatus
             // 
-            this.toolStripStatus.Name = "toolStripStatus";
-            this.toolStripStatus.Size = new System.Drawing.Size(0, 17);
-            this.toolStripStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.toolStripDeviceStatus.Name = "toolStripDeviceStatus";
+            this.toolStripDeviceStatus.Size = new System.Drawing.Size(0, 17);
             // 
             // toolStripDeviceName
             // 
@@ -165,7 +167,6 @@ namespace SerielleKommunikation
             // 
             this.toolStripDeviceNumber.Name = "toolStripDeviceNumber";
             this.toolStripDeviceNumber.Size = new System.Drawing.Size(0, 17);
-            this.toolStripDeviceNumber.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // DemoDeviceTester
             // 
@@ -205,7 +206,7 @@ namespace SerielleKommunikation
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatus;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripDeviceStatus;
         private System.Windows.Forms.ToolStripStatusLabel toolStripDeviceName;
         private System.Windows.Forms.ToolStripStatusLabel toolStripDeviceNumber;
     }
