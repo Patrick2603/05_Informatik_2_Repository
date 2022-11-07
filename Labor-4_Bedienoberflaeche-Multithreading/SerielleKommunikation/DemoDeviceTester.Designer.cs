@@ -39,7 +39,11 @@ namespace SerielleKommunikation
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatus = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripDeviceName = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripDeviceNumber = new System.Windows.Forms.ToolStripStatusLabel();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
@@ -136,11 +140,30 @@ namespace SerielleKommunikation
             // 
             // statusStrip1
             // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatus,
+            this.toolStripDeviceName,
+            this.toolStripDeviceNumber});
             this.statusStrip1.Location = new System.Drawing.Point(0, 344);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(600, 22);
             this.statusStrip1.TabIndex = 9;
             this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatus
+            // 
+            this.toolStripStatus.Name = "toolStripStatus";
+            this.toolStripStatus.Size = new System.Drawing.Size(0, 17);
+            // 
+            // toolStripDeviceName
+            // 
+            this.toolStripDeviceName.Name = "toolStripDeviceName";
+            this.toolStripDeviceName.Size = new System.Drawing.Size(0, 17);
+            // 
+            // toolStripDeviceNumber
+            // 
+            this.toolStripDeviceNumber.Name = "toolStripDeviceNumber";
+            this.toolStripDeviceNumber.Size = new System.Drawing.Size(0, 17);
             // 
             // DemoDeviceTester
             // 
@@ -161,6 +184,8 @@ namespace SerielleKommunikation
             this.Name = "DemoDeviceTester";
             this.Text = "DemoDeviceTester";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,6 +203,9 @@ namespace SerielleKommunikation
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatus;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripDeviceName;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripDeviceNumber;
     }
 }
 
