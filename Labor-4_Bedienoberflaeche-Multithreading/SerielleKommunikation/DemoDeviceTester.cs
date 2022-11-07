@@ -26,7 +26,8 @@ namespace SerielleKommunikation
         public void button1_Click(object sender, EventArgs e)
         {
             //connection to arduino
-            int portNumber = 6; 
+            //get Port number over numericupdown 
+            int portNumber = (int)numericUpDown1.Value;  
             _device.Connect(portNumber);
             textBox1.Clear();
             textBox1.Text = "Gerät: " + _device.DeviceName + Environment.NewLine;

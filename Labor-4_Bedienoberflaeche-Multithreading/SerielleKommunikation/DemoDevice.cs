@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO.Ports;
 using System.Threading;
-using System.IO; 
+using System.IO;
+
 
 namespace SerielleKommunikation
 {
@@ -20,7 +21,8 @@ namespace SerielleKommunikation
         private string _serialNumber;
         private string _deviceName;
         private int _currentNumber;
-        
+        private ConnectionStates _connectionState = ConnectionStates.Disconnected;
+
         /* Properties */
         public string DeviceName
         {
@@ -61,6 +63,19 @@ namespace SerielleKommunikation
             }
         }
 
+        public ConnectionStates ConnectionState
+        {
+            get
+            {
+                return _connectionState; 
+            }
+            set
+            {
+                _connectionState = value; 
+
+            }
+        }
+
         private enum CommandBytes   /* defines for arduino access */ 
         {
             CounterReset = 0x7A,
@@ -71,8 +86,16 @@ namespace SerielleKommunikation
             SendDeviceName = 0x7F
         }
 	
+        public enum ConnectionStates
+        {
+            Disconnected, 
+            Connecting, 
+            Connected
+        }
+
         public void Connect(int portNumber)     /* connect to arduino */
         {
+            ConnectionState = ConnectionStates.Connecting; 
             serialPort.PortName = "COM" + portNumber;
             serialPort.BaudRate = 9600;
             serialPort.DtrEnable = true;
@@ -80,11 +103,12 @@ namespace SerielleKommunikation
             {
                 serialPort.Open();
                 Thread.Sleep(2000);
-                ReadDeviceInfo(); 
+                ReadDeviceInfo();
+                ConnectionState = ConnectionStates.Connected; 
             }
             catch(IOException)
             {
-
+                ConnectionState = ConnectionStates.Disconnected; 
             }
         }
 
@@ -109,6 +133,7 @@ namespace SerielleKommunikation
         public void Disconnect()
         {
             serialPort.Close();
+            ConnectionState = ConnectionStates.Disconnected; 
         }
 
         public void Increment()
