@@ -110,6 +110,7 @@ namespace SerielleKommunikation
                 ReadDeviceInfo();
                 ConnectionState = ConnectionStates.Connected; 
             }
+
             catch(IOException)
             {
                 ConnectionState = ConnectionStates.Disconnected; 
@@ -142,11 +143,15 @@ namespace SerielleKommunikation
 
         public void Increment()
         {
-            if ((_currentNumber == 9999))
+            
+            byte[] commandBuffer = new byte[] { (byte)CommandBytes.CounterIncrement };
+            if ((serialPort != null) && (serialPort.IsOpen))
             {
-                CurrentNumber = 0;
+                serialPort.Write(commandBuffer, 0, commandBuffer.Count());
             }
-            CurrentNumber = _currentNumber + 1;
+            CurrentNumber = commandBuffer.Count();
+            
+            
             //if (serialPort.IsOpen)
             //{ 
             //    byte[] inc = new byte[] { (byte)CommandBytes.CounterIncrement };
@@ -157,11 +162,13 @@ namespace SerielleKommunikation
 
         public void Decrement()
         {
-            if(_currentNumber == 0)
+            byte[] commandBuffer = new byte[] { (byte)CommandBytes.CounterDecrement };
+            if ((serialPort != null) && (serialPort.IsOpen))
             {
-                CurrentNumber = 9999; 
+                serialPort.Write(commandBuffer, 0, commandBuffer.Count());
             }
-            CurrentNumber = _currentNumber - 1; 
+            CurrentNumber = commandBuffer.Count();
+
         }
 
         public void Reset()

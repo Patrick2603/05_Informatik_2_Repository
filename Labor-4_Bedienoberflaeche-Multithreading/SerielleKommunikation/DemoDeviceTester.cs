@@ -78,7 +78,8 @@ namespace SerielleKommunikation
                 this.Invoke((MethodInvoker)(() => { textBox1.Text = device.CurrentNumber.ToString("D4"); }));
             }
         }
-
+        
+        /* Set the Connection States  */
         private void SetConnectionState(DemoDevice.ConnectionStates connectionState)
         {
             switch (connectionState)
