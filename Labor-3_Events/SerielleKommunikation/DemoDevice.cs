@@ -73,19 +73,21 @@ namespace SerielleKommunikation
 	
         public void Connect(int portNumber)     /* connect to arduino */
         {
+            serialPort.Close(); 
             serialPort.PortName = "COM" + portNumber;
             serialPort.BaudRate = 9600;
             serialPort.DtrEnable = true;
+
             try
             {
                 serialPort.Open();
                 Thread.Sleep(2000);
-                ReadDeviceInfo(); 
+                ReadDeviceInfo();
             }
-            catch(IOException)
+            catch (IOException)
             {
 
-            }
+           }
         }
 
         private void ReadDeviceInfo()
@@ -113,7 +115,7 @@ namespace SerielleKommunikation
 
         public void Increment()
         {
-            if (serialPort.IsOpen)
+            if ((serialPort.IsOpen) && (serialPort != null))
             { 
                 byte[] inc = new byte[] { (byte)CommandBytes.CounterIncrement };
                 serialPort.Write(inc, 0, 1);
@@ -123,7 +125,7 @@ namespace SerielleKommunikation
 
         public void Decrement()
         {
-            if (serialPort.IsOpen)
+            if ((serialPort.IsOpen) && (serialPort != null))
             {
                 byte[] dec = new byte[] { (byte)CommandBytes.CounterDecrement };
                 serialPort.Write(dec, 0, 1);
@@ -133,7 +135,7 @@ namespace SerielleKommunikation
 
         public void Reset()
         {
-            if (serialPort.IsOpen)
+            if ((serialPort.IsOpen) && (serialPort != null))
             {
                 byte[] res = new byte[] { (byte)CommandBytes.CounterReset };
                 serialPort.Write(res, 0, 1);
