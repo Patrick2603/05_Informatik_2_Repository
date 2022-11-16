@@ -157,16 +157,19 @@ namespace SerielleKommunikation
             // 
             this.toolStripDeviceStatus.Name = "toolStripDeviceStatus";
             this.toolStripDeviceStatus.Size = new System.Drawing.Size(0, 17);
+            this.toolStripDeviceStatus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // toolStripDeviceName
             // 
             this.toolStripDeviceName.Name = "toolStripDeviceName";
             this.toolStripDeviceName.Size = new System.Drawing.Size(0, 17);
+            this.toolStripDeviceName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // toolStripDeviceNumber
             // 
             this.toolStripDeviceNumber.Name = "toolStripDeviceNumber";
             this.toolStripDeviceNumber.Size = new System.Drawing.Size(0, 17);
+            this.toolStripDeviceNumber.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
             // 
             // DemoDeviceTester
             // 
