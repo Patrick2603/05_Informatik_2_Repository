@@ -68,7 +68,7 @@ namespace SerielleKommunikation
                 default:
                     textBox1.Text = "Keine Änderung! ";
                     break; 
-            }
+           }
         }
     }
 }
