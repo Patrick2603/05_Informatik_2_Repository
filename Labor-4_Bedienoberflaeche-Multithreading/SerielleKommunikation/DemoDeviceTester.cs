@@ -67,11 +67,11 @@ namespace SerielleKommunikation
             }
             else if (propertyName == "DeviceName")
             {
-                this.Invoke((MethodInvoker)(() => { toolStripDeviceName.Text = device.DeviceName; }));
+                this.Invoke((MethodInvoker)(() => { toolStripDeviceName.Text = device.DeviceName.Trim(); }));
             }
             else if (propertyName == "SerialNumber")
             {
-                this.Invoke((MethodInvoker)(() => { toolStripDeviceNumber.Text = device.SerialNumber; }));
+                this.Invoke((MethodInvoker)(() => { toolStripDeviceNumber.Text = device.SerialNumber.Trim(); }));
             }
             else if (propertyName == "CurrentNumber")
             {
