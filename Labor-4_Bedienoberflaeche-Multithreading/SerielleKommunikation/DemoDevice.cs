@@ -95,29 +95,33 @@ namespace SerielleKommunikation
             Connecting, 
             Connected
         }
-
+        
         public void Connect(int portNumber)     /* connect to arduino */
         {
-            ConnectionState = ConnectionStates.Connecting; 
-            
+
+            ConnectionState = ConnectionStates.Connecting;
+
+            ThreadClass obj = new ThreadClass(); 
+            Thread newThread = new Thread(obj.Method);
             try
-            {
+            { 
                 serialPort.PortName = "COM" + portNumber;
                 serialPort.BaudRate = 9600;
                 serialPort.DtrEnable = true;
                 serialPort.Open();
-                Thread.Sleep(2000);
-                ReadDeviceInfo();
-                ConnectionState = ConnectionStates.Connected; 
-            }
+                Thread.Sleep(2000); 
 
+                newThread.IsBackground = true;
+                newThread.Start();
+            }
+            
             catch(IOException)
             {
-                ConnectionState = ConnectionStates.Disconnected; 
+               ConnectionState = ConnectionStates.Disconnected; 
             }
         }
 
-        private void ReadDeviceInfo()
+        public void ReadDeviceInfo()
         {
             //Device Name
             byte[] sendName = new byte[] { (byte)CommandBytes.SendDeviceName };
@@ -129,10 +133,14 @@ namespace SerielleKommunikation
             serialPort.Write(sendNumber, 0, 1);
             SerialNumber = serialPort.ReadLine();
 
-            //Counter
-            byte[] sendCounter = new byte[] { (byte)CommandBytes.SendCounter };
-            serialPort.Write(sendCounter, 0, 1);
-            CurrentNumber = Int16.Parse(serialPort.ReadLine());
+            while (true)
+            { 
+                //Counter
+                byte[] sendCounter = new byte[] { (byte)CommandBytes.SendCounter };
+                serialPort.Write(sendCounter, 0, 1);
+                CurrentNumber = Int16.Parse(serialPort.ReadLine());
+                Thread.Sleep(200);
+            }
         }    
         
         public void Disconnect()
@@ -197,5 +205,14 @@ namespace SerielleKommunikation
                 PropertyChanged(this, propertyName);
             }
         }
+    }
+    class ThreadClass : DemoDevice
+    {
+        public void Method()
+        {
+            ReadDeviceInfo();
+            ConnectionState = ConnectionStates.Connected;
+        }
+
     }
 }
