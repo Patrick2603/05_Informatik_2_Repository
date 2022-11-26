@@ -12,7 +12,7 @@ namespace SerielleKommunikation
 {
     class DemoDevice
     {
-        SerialPort serialPort = new SerialPort();
+        public SerialPort serialPort = new SerialPort();
         /* Schritt 1: Delegattyp für Event-Handler anlegen */
         public delegate void PropertyChangedHandler(DemoDevice source, string propertyName);
         /* Schritt 2: Event in der auslösenden Klasse anlegen */
@@ -79,7 +79,7 @@ namespace SerielleKommunikation
             }
         }
 
-        private enum CommandBytes   /* defines for arduino access */ 
+        public enum CommandBytes   /* defines for arduino access */ 
         {
             CounterReset = 0x7A,
             CounterDecrement = 0x7B,
@@ -101,16 +101,18 @@ namespace SerielleKommunikation
 
             ConnectionState = ConnectionStates.Connecting;
 
-            ThreadClass obj = new ThreadClass(); 
-            Thread newThread = new Thread(obj.Method);
+            
             try
-            { 
+            {
+                serialPort = new System.IO.Ports.SerialPort(); 
                 serialPort.PortName = "COM" + portNumber;
                 serialPort.BaudRate = 9600;
                 serialPort.DtrEnable = true;
                 serialPort.Open();
-                Thread.Sleep(2000); 
+                ConnectionState = ConnectionStates.Connected; 
 
+                //ThreadClass obj = new ThreadClass();
+                Thread newThread = new Thread(new ThreadStart(ReadDeviceInfo));
                 newThread.IsBackground = true;
                 newThread.Start();
             }
@@ -134,15 +136,15 @@ namespace SerielleKommunikation
             SerialNumber = serialPort.ReadLine();
 
             while (true)
-            { 
+            {
                 //Counter
                 byte[] sendCounter = new byte[] { (byte)CommandBytes.SendCounter };
                 serialPort.Write(sendCounter, 0, 1);
                 CurrentNumber = Int16.Parse(serialPort.ReadLine());
                 Thread.Sleep(200);
             }
-        }    
-        
+        }
+
         public void Disconnect()
         {
             serialPort.Close();
@@ -208,11 +210,10 @@ namespace SerielleKommunikation
     }
     class ThreadClass : DemoDevice
     {
-        public void Method()
+        public void Threadmethod()
         {
             ReadDeviceInfo();
             ConnectionState = ConnectionStates.Connected;
         }
-
     }
 }
