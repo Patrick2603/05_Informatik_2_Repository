@@ -98,10 +98,8 @@ namespace SerielleKommunikation
         
         public void Connect(int portNumber)     /* connect to arduino */
         {
-
             ConnectionState = ConnectionStates.Connecting;
 
-            
             try
             {
                 serialPort = new System.IO.Ports.SerialPort(); 
@@ -109,9 +107,8 @@ namespace SerielleKommunikation
                 serialPort.BaudRate = 9600;
                 serialPort.DtrEnable = true;
                 serialPort.Open();
-                ConnectionState = ConnectionStates.Connected; 
+                this.ConnectionState = ConnectionStates.Connected; 
 
-                //ThreadClass obj = new ThreadClass();
                 Thread newThread = new Thread(new ThreadStart(ReadDeviceInfo));
                 newThread.IsBackground = true;
                 newThread.Start();
@@ -125,6 +122,7 @@ namespace SerielleKommunikation
 
         public void ReadDeviceInfo()
         {
+            Thread.Sleep(2000); 
             //Device Name
             byte[] sendName = new byte[] { (byte)CommandBytes.SendDeviceName };
             serialPort.Write(sendName, 0, 1);
@@ -183,13 +181,12 @@ namespace SerielleKommunikation
             else
             {
                 CurrentNumber = _currentNumber - 1;
-
             }
         }
 
         public void Reset()
         {
-            if (serialPort.IsOpen)
+            if ((serialPort != null) && (serialPort.IsOpen))
             {
                 byte[] res = new byte[] { (byte)CommandBytes.CounterReset };
                 serialPort.Write(res, 0, 1);
