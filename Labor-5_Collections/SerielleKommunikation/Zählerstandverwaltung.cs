@@ -6,24 +6,33 @@ using System.Threading.Tasks;
 
 namespace SerielleKommunikation
 {
-    class Zählerstandverwaltung 
+    class Zählerstandverwaltung
     {
         private List<int> _zählerVerlauf = new List<int>();
-        private int _aktuelleID; 
-        private Dictionary<string, int> 
+        private int _aktuelleID;
+        private Dictionary<string, int> _produktZähler = new Dictionary<string, int>(); 
 
         public Zählerstandverwaltung()
         {
-            /* init list */
-            List<int> _zählerVerlauf = new List<int>(); 
+            /* init list, dictionary, attributes */
+            List<int> _zählerVerlauf = new List<int>();
+            Dictionary<string, int> _produktZähler = new Dictionary<string, int>(); 
+            _aktuelleID = -1;
         }
-        
 
         public List<int> Zählerstand
         {
             get
             {
-                return _zählerVerlauf; 
+                return _zählerVerlauf;
+            }
+        }
+
+        public Dictionary<string, int> ProduktZähler
+        {
+            get
+            {
+                return _produktZähler; 
             }
         }
 
@@ -31,36 +40,38 @@ namespace SerielleKommunikation
         {
             get
             {
-                return _aktuelleID; 
+                return _aktuelleID;
             }
             set
             {
-                _aktuelleID = value; 
+                _aktuelleID = value;
             }
         }
+
 
 
         public void ZählerHinzufügen(int numberReset)
         {
             /* add item to List */
-            _zählerVerlauf.Add(numberReset); 
+            _zählerVerlauf.Add(numberReset);
+            //_produktZähler[_aktuelleID] = 
         }
-        
+
         public void ZählerRückgängig()
         {
             /* check if List is empty */
-            if(_zählerVerlauf.Count != 0)
+            if (_zählerVerlauf.Count != 0)
             {
                 /* remove last item in list */
                 _zählerVerlauf.RemoveAt(_zählerVerlauf.Count - 1);
             }
         }
 
-        //public int UpdateID(int ID)
-        //{
-
-        //}
-
+        public void UpdateID(int ID)
+        {
+            _aktuelleID = ID;
+            _zählerVerlauf.Clear();
+        }
 
     }
 }

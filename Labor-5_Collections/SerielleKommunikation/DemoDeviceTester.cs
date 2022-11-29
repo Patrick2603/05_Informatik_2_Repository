@@ -52,7 +52,7 @@ namespace SerielleKommunikation
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //ZählerHinzufügen(_currentNumber); 
+            Zählerstandverwaltung.ZählerHinzufügen(_currentNumber); 
             //reset counter
             if(_device != null)
             {
