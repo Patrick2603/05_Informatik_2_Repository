@@ -12,7 +12,8 @@ namespace SerielleKommunikation
 {
     public partial class DemoDeviceTester : Form
     {
-        private DemoDevice _device; 
+        private DemoDevice _device;
+        private Zählerstandverwaltung _zv; 
         
         public DemoDeviceTester()
         {
@@ -51,6 +52,7 @@ namespace SerielleKommunikation
 
         private void button4_Click(object sender, EventArgs e)
         {
+            //ZählerHinzufügen(_currentNumber); 
             //reset counter
             if(_device != null)
             {

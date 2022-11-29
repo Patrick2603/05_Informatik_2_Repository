@@ -55,6 +55,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Zählerstandverwaltung.cs" />
     <EmbeddedResource Include="DemoDeviceTester.resx">
       <DependentUpon>DemoDeviceTester.cs</DependentUpon>
     </EmbeddedResource>
