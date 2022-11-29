@@ -12,7 +12,7 @@ namespace SerielleKommunikation
 {
     class DemoDevice
     {
-        SerialPort serialPort = new SerialPort();
+        public SerialPort serialPort = new SerialPort();
         /* Schritt 1: Delegattyp für Event-Handler anlegen */
         public delegate void PropertyChangedHandler(DemoDevice source, string propertyName);
         /* Schritt 2: Event in der auslösenden Klasse anlegen */
@@ -79,7 +79,7 @@ namespace SerielleKommunikation
             }
         }
 
-        private enum CommandBytes   /* defines for arduino access */ 
+        public enum CommandBytes   /* defines for arduino access */ 
         {
             CounterReset = 0x7A,
             CounterDecrement = 0x7B,
@@ -95,30 +95,34 @@ namespace SerielleKommunikation
             Connecting, 
             Connected
         }
-
+        
         public void Connect(int portNumber)     /* connect to arduino */
         {
-            ConnectionState = ConnectionStates.Connecting; 
-            
+            ConnectionState = ConnectionStates.Connecting;
+
             try
             {
+                serialPort = new System.IO.Ports.SerialPort(); 
                 serialPort.PortName = "COM" + portNumber;
                 serialPort.BaudRate = 9600;
                 serialPort.DtrEnable = true;
                 serialPort.Open();
-                Thread.Sleep(2000);
-                ReadDeviceInfo();
-                ConnectionState = ConnectionStates.Connected; 
-            }
+                this.ConnectionState = ConnectionStates.Connected; 
 
+                Thread newThread = new Thread(new ThreadStart(ReadDeviceInfo));
+                newThread.IsBackground = true;
+                newThread.Start();
+            }
+            
             catch(IOException)
             {
-                ConnectionState = ConnectionStates.Disconnected; 
+               ConnectionState = ConnectionStates.Disconnected; 
             }
         }
 
-        private void ReadDeviceInfo()
+        public void ReadDeviceInfo()
         {
+            Thread.Sleep(2000); 
             //Device Name
             byte[] sendName = new byte[] { (byte)CommandBytes.SendDeviceName };
             serialPort.Write(sendName, 0, 1);
@@ -129,12 +133,16 @@ namespace SerielleKommunikation
             serialPort.Write(sendNumber, 0, 1);
             SerialNumber = serialPort.ReadLine();
 
-            //Counter
-            byte[] sendCounter = new byte[] { (byte)CommandBytes.SendCounter };
-            serialPort.Write(sendCounter, 0, 1);
-            CurrentNumber = Int16.Parse(serialPort.ReadLine());
-        }    
-        
+            while (true)
+            {
+                //Counter
+                byte[] sendCounter = new byte[] { (byte)CommandBytes.SendCounter };
+                serialPort.Write(sendCounter, 0, 1);
+                CurrentNumber = Int16.Parse(serialPort.ReadLine());
+                Thread.Sleep(200);
+            }
+        }
+
         public void Disconnect()
         {
             serialPort.Close();
@@ -173,13 +181,12 @@ namespace SerielleKommunikation
             else
             {
                 CurrentNumber = _currentNumber - 1;
-
             }
         }
 
         public void Reset()
         {
-            if (serialPort.IsOpen)
+            if ((serialPort != null) && (serialPort.IsOpen))
             {
                 byte[] res = new byte[] { (byte)CommandBytes.CounterReset };
                 serialPort.Write(res, 0, 1);
@@ -196,6 +203,14 @@ namespace SerielleKommunikation
                 /* execute event */
                 PropertyChanged(this, propertyName);
             }
+        }
+    }
+    class ThreadClass : DemoDevice
+    {
+        public void Threadmethod()
+        {
+            ReadDeviceInfo();
+            ConnectionState = ConnectionStates.Connected;
         }
     }
 }

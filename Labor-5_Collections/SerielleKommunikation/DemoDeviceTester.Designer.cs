@@ -50,7 +50,7 @@ namespace SerielleKommunikation
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.textBox1.Location = new System.Drawing.Point(11, 203);
+            this.textBox1.Location = new System.Drawing.Point(11, 197);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -60,10 +60,10 @@ namespace SerielleKommunikation
             // 
             // verbinden
             // 
-            this.verbinden.Location = new System.Drawing.Point(154, 60);
+            this.verbinden.Location = new System.Drawing.Point(154, 51);
             this.verbinden.Margin = new System.Windows.Forms.Padding(2);
             this.verbinden.Name = "verbinden";
-            this.verbinden.Size = new System.Drawing.Size(81, 20);
+            this.verbinden.Size = new System.Drawing.Size(81, 34);
             this.verbinden.TabIndex = 1;
             this.verbinden.Text = "verbinden";
             this.verbinden.UseVisualStyleBackColor = true;
@@ -82,7 +82,7 @@ namespace SerielleKommunikation
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(11, 263);
+            this.button3.Location = new System.Drawing.Point(11, 250);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(93, 30);
@@ -93,10 +93,10 @@ namespace SerielleKommunikation
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(154, 209);
+            this.button4.Location = new System.Drawing.Point(154, 197);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(81, 22);
+            this.button4.Size = new System.Drawing.Size(81, 34);
             this.button4.TabIndex = 4;
             this.button4.Text = "reset";
             this.button4.UseVisualStyleBackColor = true;
