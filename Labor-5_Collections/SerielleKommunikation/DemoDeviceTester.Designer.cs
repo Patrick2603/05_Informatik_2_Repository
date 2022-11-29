@@ -42,8 +42,16 @@ namespace SerielleKommunikation
             this.toolStripDeviceStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripDeviceName = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripDeviceNumber = new System.Windows.Forms.ToolStripStatusLabel();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.verwaltungToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.speichernRückgängigToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aktuelleIDSetzenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.zeigeListeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.eingabeID = new System.Windows.Forms.ToolStripTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.statusStrip1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
@@ -60,7 +68,7 @@ namespace SerielleKommunikation
             // 
             // verbinden
             // 
-            this.verbinden.Location = new System.Drawing.Point(154, 51);
+            this.verbinden.Location = new System.Drawing.Point(154, 73);
             this.verbinden.Margin = new System.Windows.Forms.Padding(2);
             this.verbinden.Name = "verbinden";
             this.verbinden.Size = new System.Drawing.Size(81, 34);
@@ -107,7 +115,7 @@ namespace SerielleKommunikation
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(12, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(96, 20);
             this.label1.TabIndex = 5;
@@ -115,7 +123,7 @@ namespace SerielleKommunikation
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(64, 60);
+            this.numericUpDown1.Location = new System.Drawing.Point(64, 78);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(65, 20);
             this.numericUpDown1.TabIndex = 6;
@@ -124,7 +132,7 @@ namespace SerielleKommunikation
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 60);
+            this.label2.Location = new System.Drawing.Point(13, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 16);
             this.label2.TabIndex = 7;
@@ -171,12 +179,68 @@ namespace SerielleKommunikation
             this.toolStripDeviceNumber.Size = new System.Drawing.Size(0, 17);
             this.toolStripDeviceNumber.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.verwaltungToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(600, 24);
+            this.menuStrip1.TabIndex = 10;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // verwaltungToolStripMenuItem
+            // 
+            this.verwaltungToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.speichernRückgängigToolStripMenuItem,
+            this.aktuelleIDSetzenToolStripMenuItem,
+            this.zeigeListeToolStripMenuItem});
+            this.verwaltungToolStripMenuItem.Name = "verwaltungToolStripMenuItem";
+            this.verwaltungToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
+            this.verwaltungToolStripMenuItem.Text = "Verwaltung";
+            // 
+            // speichernRückgängigToolStripMenuItem
+            // 
+            this.speichernRückgängigToolStripMenuItem.Name = "speichernRückgängigToolStripMenuItem";
+            this.speichernRückgängigToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.speichernRückgängigToolStripMenuItem.Text = "Speichern Rückgängig";
+            this.speichernRückgängigToolStripMenuItem.Click += new System.EventHandler(this.speichernRückgängigToolStripMenuItem_Click);
+            // 
+            // aktuelleIDSetzenToolStripMenuItem
+            // 
+            this.aktuelleIDSetzenToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2,
+            this.eingabeID});
+            this.aktuelleIDSetzenToolStripMenuItem.Name = "aktuelleIDSetzenToolStripMenuItem";
+            this.aktuelleIDSetzenToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.aktuelleIDSetzenToolStripMenuItem.Text = "Aktuelle ID setzen";
+            // 
+            // zeigeListeToolStripMenuItem
+            // 
+            this.zeigeListeToolStripMenuItem.Name = "zeigeListeToolStripMenuItem";
+            this.zeigeListeToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.zeigeListeToolStripMenuItem.Text = "Zeige Liste ...";
+            this.zeigeListeToolStripMenuItem.Click += new System.EventHandler(this.zeigeListeToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem2.Text = "0";
+            // 
+            // eingabeID
+            // 
+            this.eingabeID.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.eingabeID.Name = "eingabeID";
+            this.eingabeID.Size = new System.Drawing.Size(100, 23);
+            // 
             // DemoDeviceTester
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.numericUpDown1);
@@ -186,12 +250,15 @@ namespace SerielleKommunikation
             this.Controls.Add(this.button2);
             this.Controls.Add(this.verbinden);
             this.Controls.Add(this.textBox1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DemoDeviceTester";
             this.Text = "DemoDeviceTester";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -212,6 +279,13 @@ namespace SerielleKommunikation
         private System.Windows.Forms.ToolStripStatusLabel toolStripDeviceStatus;
         private System.Windows.Forms.ToolStripStatusLabel toolStripDeviceName;
         private System.Windows.Forms.ToolStripStatusLabel toolStripDeviceNumber;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem verwaltungToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem speichernRückgängigToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aktuelleIDSetzenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem zeigeListeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripTextBox eingabeID;
     }
 }
 

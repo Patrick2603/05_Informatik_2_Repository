@@ -97,5 +97,15 @@ namespace SerielleKommunikation
                     break;
             }
         }
+
+        private void speichernRückgängigToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _zv.ZählerRückgängig();
+        }
+
+        private void zeigeListeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Produktliste p = new Produktliste(); 
+        }
     }
 }
