@@ -105,13 +105,13 @@ namespace SerielleKommunikation
 
         private void zeigeListeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            public Dictionary<int, int> ZeigeListe()
-            {
-                foreach(KeyValuePair<int, int> zähler in tempListe)
-                {
+            //public Dictionary<int, int> ZeigeListe()
+            //{
+            //    foreach(KeyValuePair<int, int> zähler in tempListe)
+            //    {
 
-                }
-            }
+            //    }
+            //}
             //Produktliste p = new Produktliste();
             //ZeigeListe(ProduktZähler);
         }
