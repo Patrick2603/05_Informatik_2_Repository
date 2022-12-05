@@ -52,7 +52,7 @@ namespace SerielleKommunikation
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Zählerstandverwaltung.ZählerHinzufügen(_currentNumber); 
+            Zählerstandverwaltung.ZählerHinzufügen(); 
             //reset counter
             if(_device != null)
             {
@@ -105,15 +105,18 @@ namespace SerielleKommunikation
 
         private void zeigeListeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //public Dictionary<int, int> ZeigeListe()
-            //{
-            //    foreach(KeyValuePair<int, int> zähler in tempListe)
-            //    {
-
-            //    }
-            //}
+            
             //Produktliste p = new Produktliste();
             //ZeigeListe(ProduktZähler);
+        }
+
+        public Dictionary<int, int> ZeigeListe(Dictionary<int, int>)
+        {
+            foreach(KeyValuePair<int, int> zähler in tempListe)
+            {
+                
+            }
+             
         }
     }
 }

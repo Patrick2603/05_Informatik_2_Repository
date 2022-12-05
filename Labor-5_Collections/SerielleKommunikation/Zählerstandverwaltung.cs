@@ -28,14 +28,6 @@ namespace SerielleKommunikation
             }
         }
 
-        public Dictionary<string, int> ProduktZähler
-        {
-            get
-            {
-                return _produktZähler; 
-            }
-        }
-
         public int AktuelleID
         {
             get
@@ -48,13 +40,20 @@ namespace SerielleKommunikation
             }
         }
 
+        public Dictionary<string, int> ProduktZähler
+        {
+            get
+            {
+                return _produktZähler; 
+            }
+        }
 
 
         public void ZählerHinzufügen(int numberReset)
         {
             /* add item to List */
             _zählerVerlauf.Add(numberReset);
-            //_produktZähler[_aktuelleID] = 
+            _produktZähler[_aktuelleID] = ;  
         }
 
         public void ZählerRückgängig()

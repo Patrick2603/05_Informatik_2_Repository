@@ -46,9 +46,9 @@ namespace SerielleKommunikation
             this.verwaltungToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.speichernRückgängigToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aktuelleIDSetzenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.zeigeListeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.eingabeID = new System.Windows.Forms.ToolStripTextBox();
+            this.zeigeListeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -215,24 +215,24 @@ namespace SerielleKommunikation
             this.aktuelleIDSetzenToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.aktuelleIDSetzenToolStripMenuItem.Text = "Aktuelle ID setzen";
             // 
-            // zeigeListeToolStripMenuItem
-            // 
-            this.zeigeListeToolStripMenuItem.Name = "zeigeListeToolStripMenuItem";
-            this.zeigeListeToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
-            this.zeigeListeToolStripMenuItem.Text = "Zeige Liste ...";
-            this.zeigeListeToolStripMenuItem.Click += new System.EventHandler(this.zeigeListeToolStripMenuItem_Click);
-            // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem2.Text = "0";
+            this.toolStripMenuItem2.Text = "eingabeID";
             // 
             // eingabeID
             // 
             this.eingabeID.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.eingabeID.Name = "eingabeID";
             this.eingabeID.Size = new System.Drawing.Size(100, 23);
+            // 
+            // zeigeListeToolStripMenuItem
+            // 
+            this.zeigeListeToolStripMenuItem.Name = "zeigeListeToolStripMenuItem";
+            this.zeigeListeToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.zeigeListeToolStripMenuItem.Text = "Zeige Liste ...";
+            this.zeigeListeToolStripMenuItem.Click += new System.EventHandler(this.zeigeListeToolStripMenuItem_Click);
             // 
             // DemoDeviceTester
             // 

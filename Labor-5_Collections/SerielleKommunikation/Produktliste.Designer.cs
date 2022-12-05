@@ -29,23 +29,23 @@ namespace SerielleKommunikation
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.ListBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // listBox1
+            // ListBox
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 12);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(165, 355);
-            this.listBox1.TabIndex = 0;
+            this.ListBox.FormattingEnabled = true;
+            this.ListBox.Location = new System.Drawing.Point(12, 12);
+            this.ListBox.Name = "ListBox";
+            this.ListBox.Size = new System.Drawing.Size(165, 355);
+            this.ListBox.TabIndex = 0;
             // 
             // Produktliste
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.ListBox);
             this.Name = "Produktliste";
             this.Text = "Produktliste";
             this.ResumeLayout(false);
@@ -54,6 +54,6 @@ namespace SerielleKommunikation
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox ListBox;
     }
 }
