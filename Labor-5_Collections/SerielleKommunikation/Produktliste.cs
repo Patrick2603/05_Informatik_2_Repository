@@ -22,7 +22,7 @@ namespace SerielleKommunikation
             ListBox.Columns.Add("ID", ListBox.Width / 2, HorizontalAlignment.Left);
             ListBox.Columns.Add("Wert", ListBox.Width / 2, HorizontalAlignment.Left);
             ListBox.View = View.Details;
-            ListBox.BeginUpdate(); 
+            ListBox.BeginUpdate();
 
             foreach (KeyValuePair<int, int> zähler in productList)
             {

@@ -29,17 +29,17 @@ namespace SerielleKommunikation
         /// </summary>
         private void InitializeComponent()
         {
-            this.ListBox = new System.Windows.Forms.ListBox();
+            this.ListBox = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // ListBox
             // 
-            this.ListBox.FormattingEnabled = true;
+            this.ListBox.HideSelection = false;
             this.ListBox.Location = new System.Drawing.Point(12, 12);
             this.ListBox.Name = "ListBox";
-            this.ListBox.Size = new System.Drawing.Size(165, 355);
+            this.ListBox.Size = new System.Drawing.Size(776, 410);
             this.ListBox.TabIndex = 0;
-            this.ListBox.SelectedIndexChanged += new System.EventHandler(this.ListBox_SelectedIndexChanged);
+            this.ListBox.UseCompatibleStateImageBehavior = false;
             // 
             // Produktliste
             // 
@@ -55,6 +55,6 @@ namespace SerielleKommunikation
 
         #endregion
 
-        private System.Windows.Forms.ListBox ListBox;
+        private System.Windows.Forms.ListView ListBox;
     }
 }

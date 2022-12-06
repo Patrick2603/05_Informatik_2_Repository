@@ -52,7 +52,7 @@ namespace SerielleKommunikation
 
         private void button4_Click(object sender, EventArgs e)
         {
-            _zv.UpdateID(Int32.Parse(eingabeID.Text)); 
+            //_zv.UpdateID(Int32.Parse(eingabeID.Text)); 
             _zv.ZählerHinzufügen(_device.CurrentNumber); 
             //reset counter
             if(_device != null)
@@ -79,6 +79,10 @@ namespace SerielleKommunikation
             else if (propertyName == "CurrentNumber")
             {
                 this.Invoke((MethodInvoker)(() => { textBox1.Text = device.CurrentNumber.ToString("D4"); }));
+            }
+            else if(propertyName == "Reset")
+            {
+                _zv.ZählerHinzufügen(_device.CurrentNumber); 
             }
         }
 

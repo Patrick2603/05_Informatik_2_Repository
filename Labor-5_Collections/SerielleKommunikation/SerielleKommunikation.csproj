@@ -53,11 +53,20 @@
     <Compile Include="DemoDeviceTester.Designer.cs">
       <DependentUpon>DemoDeviceTester.cs</DependentUpon>
     </Compile>
+    <Compile Include="Produktliste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produktliste.Designer.cs">
+      <DependentUpon>Produktliste.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Zählerstandverwaltung.cs" />
     <EmbeddedResource Include="DemoDeviceTester.resx">
       <DependentUpon>DemoDeviceTester.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produktliste.resx">
+      <DependentUpon>Produktliste.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
