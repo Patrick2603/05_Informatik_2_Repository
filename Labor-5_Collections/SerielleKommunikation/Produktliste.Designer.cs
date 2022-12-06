@@ -39,6 +39,7 @@ namespace SerielleKommunikation
             this.ListBox.Name = "ListBox";
             this.ListBox.Size = new System.Drawing.Size(165, 355);
             this.ListBox.TabIndex = 0;
+            this.ListBox.SelectedIndexChanged += new System.EventHandler(this.ListBox_SelectedIndexChanged);
             // 
             // Produktliste
             // 

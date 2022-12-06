@@ -16,5 +16,26 @@ namespace SerielleKommunikation
         {
             InitializeComponent();
         }
+
+        public void ZeigeListe(Dictionary<int, int> productList)
+        {
+            ListBox.Columns.Add("ID", ListBox.Width / 2, HorizontalAlignment.Left);
+            ListBox.Columns.Add("Wert", ListBox.Width / 2, HorizontalAlignment.Left);
+            ListBox.View = View.Details;
+            ListBox.BeginUpdate(); 
+
+            foreach (KeyValuePair<int, int> zähler in productList)
+            {
+                ListViewItem Item = new ListViewItem(zähler.Key.ToString());
+                Item.SubItems.Add(zähler.Value.ToString());
+                ListBox.Items.Add(Item);
+            }
+            ListBox.EndUpdate();
+        }
+
+        private void ListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

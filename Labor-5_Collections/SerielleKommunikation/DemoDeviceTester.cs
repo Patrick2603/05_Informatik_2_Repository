@@ -106,18 +106,9 @@ namespace SerielleKommunikation
 
         private void zeigeListeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
-            //Produktliste p = new Produktliste();
-            //ZeigeListe(ProduktZähler);
-        }
-
-        public void ZeigeListe(Dictionary<int, int>)
-        {
-            //foreach (KeyValuePair<int, int> zähler in tempListe)
-            //{
-
-            //}
-
+            Produktliste p = new Produktliste();
+            p.ZeigeListe(_zv.ProduktZähler);
+            p.Show(); 
         }
     }
 }

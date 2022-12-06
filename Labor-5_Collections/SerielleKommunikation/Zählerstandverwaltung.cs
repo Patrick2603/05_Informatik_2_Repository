@@ -8,15 +8,15 @@ namespace SerielleKommunikation
 {
     class Zählerstandverwaltung
     {
-        private List<int> _zählerVerlauf = new List<int>();
+        private List<int> _zählerVerlauf;
         private int _aktuelleID;
-        private Dictionary<string, int> _produktZähler = new Dictionary<string, int>(); 
+        private Dictionary<int, int> _produktZähler; 
 
         public Zählerstandverwaltung()
         {
             /* init list, dictionary, attributes */
-            List<int> _zählerVerlauf = new List<int>();
-            Dictionary<string, int> _produktZähler = new Dictionary<string, int>(); 
+            _zählerVerlauf = new List<int>();
+            _produktZähler = new Dictionary<int, int>(); 
             _aktuelleID = -1;
         }
         
@@ -40,7 +40,7 @@ namespace SerielleKommunikation
             }
         }
 
-        public Dictionary<string, int> ProduktZähler
+        public Dictionary<int, int> ProduktZähler
         {
             get
             {
@@ -53,7 +53,14 @@ namespace SerielleKommunikation
             /* add item to List */
             _zählerVerlauf.Add(numberReset);
             /* add item to Dictionary, if ID is correct */
-            _produktZähler[_aktuelleID.ToString()] = numberReset;      
+            if(_produktZähler.ContainsKey(_aktuelleID))
+            {
+                _produktZähler[_aktuelleID] += numberReset; 
+            }
+            else
+            {
+                _produktZähler.Add(_aktuelleID, numberReset); 
+            }      
         }
 
         public void ZählerRückgängig()
@@ -61,17 +68,26 @@ namespace SerielleKommunikation
             /* check if List is empty */
             if (_zählerVerlauf.Count != 0)
             {
+                if(_produktZähler[_aktuelleID] - _zählerVerlauf[_zählerVerlauf.Count - 1] != 0)
+                {
+                    _produktZähler[_aktuelleID] -= _zählerVerlauf[_zählerVerlauf.Count - 1]; 
+                }
+                else
+                {
+                    _produktZähler.Remove(_aktuelleID); 
+                }
                 /* remove last item in list */
                 _zählerVerlauf.RemoveAt(_zählerVerlauf.Count - 1);
             }
-            /* Dictionary */
-            
         }
 
         public void UpdateID(int ID)
         {
-            _aktuelleID = ID;
-            _zählerVerlauf.Clear();
+            if(ID != _aktuelleID)
+            {
+                _aktuelleID = ID;
+                _zählerVerlauf.Clear();
+            }
         }
     }
 }
