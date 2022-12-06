@@ -52,7 +52,8 @@ namespace SerielleKommunikation
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Zählerstandverwaltung.ZählerHinzufügen(); 
+            _zv.UpdateID(Int32.Parse(eingabeID.Text)); 
+            _zv.ZählerHinzufügen(_device.CurrentNumber); 
             //reset counter
             if(_device != null)
             {
@@ -110,13 +111,13 @@ namespace SerielleKommunikation
             //ZeigeListe(ProduktZähler);
         }
 
-        public Dictionary<int, int> ZeigeListe(Dictionary<int, int>)
+        public void ZeigeListe(Dictionary<int, int>)
         {
-            foreach(KeyValuePair<int, int> zähler in tempListe)
-            {
-                
-            }
-             
+            //foreach (KeyValuePair<int, int> zähler in tempListe)
+            //{
+
+            //}
+
         }
     }
 }

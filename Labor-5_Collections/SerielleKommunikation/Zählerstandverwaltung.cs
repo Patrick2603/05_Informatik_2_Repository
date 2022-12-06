@@ -19,7 +19,7 @@ namespace SerielleKommunikation
             Dictionary<string, int> _produktZähler = new Dictionary<string, int>(); 
             _aktuelleID = -1;
         }
-
+        
         public List<int> Zählerstand
         {
             get
@@ -48,12 +48,12 @@ namespace SerielleKommunikation
             }
         }
 
-
         public void ZählerHinzufügen(int numberReset)
         {
             /* add item to List */
             _zählerVerlauf.Add(numberReset);
-            _produktZähler[_aktuelleID] = ;  
+            /* add item to Dictionary, if ID is correct */
+            _produktZähler[_aktuelleID.ToString()] = numberReset;      
         }
 
         public void ZählerRückgängig()
@@ -64,6 +64,8 @@ namespace SerielleKommunikation
                 /* remove last item in list */
                 _zählerVerlauf.RemoveAt(_zählerVerlauf.Count - 1);
             }
+            /* Dictionary */
+            
         }
 
         public void UpdateID(int ID)
@@ -71,6 +73,5 @@ namespace SerielleKommunikation
             _aktuelleID = ID;
             _zählerVerlauf.Clear();
         }
-
     }
 }

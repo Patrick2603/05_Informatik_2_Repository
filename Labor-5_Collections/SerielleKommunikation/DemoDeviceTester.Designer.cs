@@ -219,11 +219,10 @@ namespace SerielleKommunikation
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem2.Text = "eingabeID";
+            this.toolStripMenuItem2.Text = "0";
             // 
             // eingabeID
             // 
-            this.eingabeID.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.eingabeID.Name = "eingabeID";
             this.eingabeID.Size = new System.Drawing.Size(100, 23);
             // 
