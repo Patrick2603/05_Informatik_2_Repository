@@ -46,7 +46,6 @@ namespace SerielleKommunikation
             this.verwaltungToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.speichernRückgängigToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aktuelleIDSetzenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.eingabeID = new System.Windows.Forms.ToolStripTextBox();
             this.zeigeListeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -209,22 +208,16 @@ namespace SerielleKommunikation
             // aktuelleIDSetzenToolStripMenuItem
             // 
             this.aktuelleIDSetzenToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2,
             this.eingabeID});
             this.aktuelleIDSetzenToolStripMenuItem.Name = "aktuelleIDSetzenToolStripMenuItem";
             this.aktuelleIDSetzenToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.aktuelleIDSetzenToolStripMenuItem.Text = "Aktuelle ID setzen";
             // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem2.Text = "0";
-            // 
             // eingabeID
             // 
             this.eingabeID.Name = "eingabeID";
             this.eingabeID.Size = new System.Drawing.Size(100, 23);
+            this.eingabeID.Text = "0";
             // 
             // zeigeListeToolStripMenuItem
             // 
@@ -283,7 +276,7 @@ namespace SerielleKommunikation
         private System.Windows.Forms.ToolStripMenuItem speichernRückgängigToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aktuelleIDSetzenToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem zeigeListeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        //private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripTextBox eingabeID;
     }
 }

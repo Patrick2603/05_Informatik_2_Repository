@@ -37,7 +37,7 @@ namespace SerielleKommunikation
             this.ListBox.HideSelection = false;
             this.ListBox.Location = new System.Drawing.Point(12, 12);
             this.ListBox.Name = "ListBox";
-            this.ListBox.Size = new System.Drawing.Size(776, 410);
+            this.ListBox.Size = new System.Drawing.Size(264, 426);
             this.ListBox.TabIndex = 0;
             this.ListBox.UseCompatibleStateImageBehavior = false;
             // 

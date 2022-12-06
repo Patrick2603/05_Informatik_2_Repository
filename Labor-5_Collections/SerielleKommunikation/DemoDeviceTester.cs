@@ -20,6 +20,8 @@ namespace SerielleKommunikation
             InitializeComponent();
             DemoDevice device = new DemoDevice();
             _device = device;
+            Zählerstandverwaltung zv = new Zählerstandverwaltung(); 
+            _zv = zv; 
             /* Schritt 5: Event-Handler als Beobachter anmelden */
             _device.PropertyChanged += OnDevicePropertyChanged; 
         }
@@ -52,7 +54,7 @@ namespace SerielleKommunikation
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //_zv.UpdateID(Int32.Parse(eingabeID.Text)); 
+            _zv.UpdateID(Int32.Parse(eingabeID.Text)); 
             _zv.ZählerHinzufügen(_device.CurrentNumber); 
             //reset counter
             if(_device != null)
