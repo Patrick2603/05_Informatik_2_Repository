@@ -40,6 +40,7 @@ namespace Aufgabe_5
             {
                 summe += w.Mieter.Count; 
             }
+            /* _hausgeldpP = 400 / 4 */
             _hausgeldpP = _hausgeld / summe; 
         }
 
@@ -57,7 +58,10 @@ namespace Aufgabe_5
 
         public void PrintAktKosten(int nr)
         {
+            /* nr = 0 */
+            /* hausgeldGes = 100 * 1000 = 100000 */
             double hausgeldGes = _hausgeldpP * _wohnungen[nr].Mieter.Count;
+            /* kosten = 100000 + 1000 = 110000 */
             double kosten = hausgeldGes + _wohnungen[nr].Miete;
             Console.WriteLine("Kosten für Whg Nr." + nr + ": " + kosten);
         }
