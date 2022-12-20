@@ -16,10 +16,12 @@ namespace Labor_6
 
             while (true)
             {
+                Console.WriteLine("Warten auf Client...");
                 TcpClient client = serverSocket.AcceptTcpClient();
                 /* Communication Thread */
                 Thread clientThread = new Thread(ClientHandler);
                 clientThread.Start(client);
+                Console.WriteLine("Client Verbindung zu Server hergestellt"); 
             }
 
             static void ClientHandler(object o)
@@ -34,7 +36,6 @@ namespace Labor_6
                     Console.WriteLine(stream);
                 }
             }
-
         }
     }
 }
