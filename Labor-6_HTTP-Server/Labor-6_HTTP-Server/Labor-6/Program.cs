@@ -12,16 +12,28 @@ namespace Labor_6
             /*  Server Socket */
             IPAddress localAddr = IPAddress.Parse("127.0.0.1");
             TcpListener serverSocket = new TcpListener(localAddr, 80);
+            /* Starting to wait for Client */
             serverSocket.Start();
 
-            while (true)
+            while(true)
             {
-                Console.WriteLine("Warten auf Client...");
-                TcpClient client = serverSocket.AcceptTcpClient();
-                /* Communication Thread */
-                Thread clientThread = new Thread(ClientHandler);
-                clientThread.Start(client);
-                Console.WriteLine("Client Verbindung zu Server hergestellt"); 
+                try
+                {
+                    Console.WriteLine("Warten auf Client...");
+                    TcpClient client = serverSocket.AcceptTcpClient();
+                    /* Communication Thread */
+                    Thread clientThread = new Thread(ClientHandler);
+                    clientThread.Start(client);
+                    Console.WriteLine("Client Verbindung zu Server hergestellt");
+                }
+                catch(SocketException e)
+                {
+                    Console.WriteLine("Socket Exception: " + e.ToString());
+                    /* Stop the Server from Listening for Client requests */
+                    serverSocket.Stop();
+
+                }
+                
             }
 
             static void ClientHandler(object o)
@@ -33,7 +45,8 @@ namespace Labor_6
                 Byte[] bytes = new Byte[256];
                 while ((i = stream.Read(bytes, 0, bytes.Length)) != 0)
                 {
-                    Console.WriteLine(stream);
+                    string request = System.Text.Encoding.ASCII.GetString(bytes, 0, i); 
+                    Console.WriteLine(request);
                 }
             }
         }
