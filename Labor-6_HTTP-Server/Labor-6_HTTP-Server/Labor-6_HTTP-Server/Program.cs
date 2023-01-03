@@ -8,9 +8,9 @@ using System.Net.Sockets;
 using System.Threading;
 using System.IO;
 
-namespace HTTP_Server
+namespace Labor_6_HTTP_Server
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -40,7 +40,6 @@ namespace HTTP_Server
                 serverSocket.Stop();
             }
         }
-
         private static void ClientHandler(object o)
         {
             /* Communication with the Client */
@@ -48,19 +47,19 @@ namespace HTTP_Server
             NetworkStream clientStream = client.GetStream();
             int i;
             byte[] buffer = new byte[1024];
-            while((i = clientStream.Read(buffer, 0, buffer.Length)) != 0)
+            while ((i = clientStream.Read(buffer, 0, buffer.Length)) != 0)
             {
                 string request = System.request.Encoding.ASCII.GetString(buffer, 0, i);
                 Console.WriteLine(request);
 
-                string filename = request.Substring(request.IndexOf("/")+1, (request.IndexOf("H") - request.IndexOf("/"))-1);
+                string filename = request.Substring(request.IndexOf("/") + 1, (request.IndexOf("H") - request.IndexOf("/")) - 1);
 
-                if(filename == " ")
+                if (filename == " ")
                 {
                     filename = "index.html";
                 }
 
-                if(File.Exists(filename))
+                if (File.Exists(filename))
                 {
                     string output = "";
 
@@ -71,7 +70,7 @@ namespace HTTP_Server
 
                         string content = Encoding.ASCII.GetString(fileBuffer, 0, fileBuffer.Length);
 
-                        if(filename == "favicon.ico")
+                        if (filename == "favicon.ico")
                         {
                             output = "HTTP/1.1 200 OK\nContent-length:" + fileReader.Length + "\nContent-Type: image/x-icon\n\n" + content;
                         }
