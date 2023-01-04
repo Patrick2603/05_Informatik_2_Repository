@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.request;
+using System.Text;
 using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.IO;
 
-namespace Labor_6_HTTP_Server
+namespace HTTP_Server
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
@@ -40,6 +40,7 @@ namespace Labor_6_HTTP_Server
                 serverSocket.Stop();
             }
         }
+
         private static void ClientHandler(object o)
         {
             /* Communication with the Client */
@@ -49,7 +50,7 @@ namespace Labor_6_HTTP_Server
             byte[] buffer = new byte[1024];
             while ((i = clientStream.Read(buffer, 0, buffer.Length)) != 0)
             {
-                string request = System.request.Encoding.ASCII.GetString(buffer, 0, i);
+                string request = System.Text.Encoding.ASCII.GetString(buffer, 0, i);
                 Console.WriteLine(request);
 
                 string filename = request.Substring(request.IndexOf("/") + 1, (request.IndexOf("H") - request.IndexOf("/")) - 1);
@@ -84,7 +85,6 @@ namespace Labor_6_HTTP_Server
 
                     clientStream.Write(outputbuffer, 0, outputbuffer.Length);
                 }
-
             }
         }
     }

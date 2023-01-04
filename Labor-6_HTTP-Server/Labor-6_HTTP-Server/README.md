@@ -1,0 +1,1 @@
+The websites must be in the folder \...\Labor-6_HTTP-Server\bin\Debug otherwise they wont be found

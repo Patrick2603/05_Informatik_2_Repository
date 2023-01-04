@@ -3,11 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33130.400
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labor-6_HTTP-Server", "Labor-6_HTTP-Server\Labor-6_HTTP-Server.csproj", "{9336E22D-BBBA-450B-8223-DE66CCBEA228}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9336E22D-BBBA-450B-8223-DE66CCBEA228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9336E22D-BBBA-450B-8223-DE66CCBEA228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9336E22D-BBBA-450B-8223-DE66CCBEA228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9336E22D-BBBA-450B-8223-DE66CCBEA228}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C3543A0C-4B6A-4001-A3C0-D701A464F952}
+		SolutionGuid = {25012310-C721-499B-AAEB-113FC3882247}
 	EndGlobalSection
 EndGlobal
