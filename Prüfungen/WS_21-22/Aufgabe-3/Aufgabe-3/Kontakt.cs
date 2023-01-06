@@ -16,7 +16,15 @@ namespace Aufgabe_3
             _telNummer = s[2]; 
         }
 
-        private string _datei = @"D:\tmp1\Adressen.txt";
-        private List<Kontakt> _list = new List<Kontakt>();
+        /* b.) */
+        public override string ToString()
+        {
+            return _vorname + " | " + _name + " | " + _telNummer; 
+        }
+
+        public string SpeicherString()
+        {
+            return _vorname + ";" + _name + ";" + _telNummer; 
+        }
     }
 }
