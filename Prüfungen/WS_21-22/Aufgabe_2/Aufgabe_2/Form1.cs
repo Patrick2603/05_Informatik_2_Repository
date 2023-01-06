@@ -49,16 +49,18 @@ namespace Aufgabe_2
         {
             /* Button: Status */
             int ticketnummer = Int32.Parse(tBNummer.Text);
+            /* Iterate over the field to check if ticketnummer from textBox is already in the ticketList */
             for(int i = 0; i < _ticketList.Count(); i++)
             {
                 if (ticketnummer == _ticketList[i].Nummer)
                 {
                     int ticketstatus = Int32.Parse(tBStatus.Text);
-
+                    /* Ticket should be removed from List */
                     if(ticketstatus == 100)
                     {
                         _ticketList.RemoveAt(i);
                     }
+                    /* Set the new status in the List */
                     else if((ticketstatus >= 0) && (ticketstatus < 100))
                     {
                         _ticketList[i].Status = ticketstatus; 

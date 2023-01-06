@@ -13,6 +13,7 @@ namespace Aufgabe_2
         private string _beschreibung;
         private int _status; 
         
+        /* Constructor */
         public Ticket(int Ticketnummer, string Beschreibung)
         {
             _nummer = Ticketnummer;
@@ -20,6 +21,7 @@ namespace Aufgabe_2
             _status = 0; 
         }
 
+        /* Properties */
         public int Nummer
         {
             get { return _nummer; } 
@@ -34,6 +36,7 @@ namespace Aufgabe_2
             set { _status = value;  }
         }
 
+        /* Override function */
         public override string ToString()
         {
             return Nummer.ToString() + "; " + Beschreibung + "; " + Status.ToString();
