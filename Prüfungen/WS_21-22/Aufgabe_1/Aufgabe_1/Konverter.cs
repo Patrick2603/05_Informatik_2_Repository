@@ -26,6 +26,7 @@ namespace Aufgabe_1
             set
             {
                 _aktLeistung = value;
+                /* Error because the class Module is not implemented, connection with server is done is that */
                 form1.SchreibeLeistung(value);
             }
         }

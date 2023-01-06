@@ -46,7 +46,6 @@ namespace Aufgabe_1
         public void SchreibeLeistung(int Leistung)
         {
             tBaktLeistung.Text = Leistung.ToString();
-
             /* with Thread */
             tBaktLeistung.Invoke((MethodInvoker)(() => { tBaktLeistung.Text = Leistung.ToString(); }));
         }
