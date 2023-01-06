@@ -43,5 +43,28 @@ namespace Aufgabe_2
             tBNummer.Clear();
             tBStatus.Clear(); 
         }
+
+        /* c.) */
+        private void button2_Click(object sender, EventArgs e)
+        {
+            /* Button: Status */
+            int ticketnummer = Int32.Parse(tBNummer.Text);
+            for(int i = 0; i < _ticketList.Count(); i++)
+            {
+                if (ticketnummer == _ticketList[i].Nummer)
+                {
+                    int ticketstatus = Int32.Parse(tBStatus.Text);
+
+                    if(ticketstatus == 100)
+                    {
+                        _ticketList.RemoveAt(i);
+                    }
+                    else if((ticketstatus >= 0) && (ticketstatus < 100))
+                    {
+                        _ticketList[i].Status = ticketstatus; 
+                    }
+                }
+            }
+        }
     }
 }
