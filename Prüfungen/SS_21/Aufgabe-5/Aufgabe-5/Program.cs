@@ -14,7 +14,8 @@ namespace Aufgabe_5
             ArrayList list = new ArrayList();
             list.Add(1);
             list.Add(3);
-            list.Insert(list.Count - 2, 2); 
+            /* ist das wirkich -2, nicht -2 sogar chatGPT sagt das */
+            list.Insert(list.Count - 1, 2); 
         }
     }
 }
