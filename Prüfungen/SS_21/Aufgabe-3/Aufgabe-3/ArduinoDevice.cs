@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO.Ports;
 using System.Threading;
+using System.IO; 
 
 namespace Aufgabe_3
 {
@@ -57,7 +58,13 @@ namespace Aufgabe_3
 
         private void LeseTemp()
         {
-
+            while(true)
+            {
+                byte[] _command = new byte[] { 0x7D };
+                _serialPort.Write(_command, 0, _command.Count());
+                int temp = Int32.Parse(_serialPort.ReadLine()); 
+                Thread.Sleep(10000); 
+            }
         }
     }
 }

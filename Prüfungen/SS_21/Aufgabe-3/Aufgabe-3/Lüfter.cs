@@ -8,5 +8,12 @@ namespace Aufgabe_3
 {
     class Lüfter
     {
+        private bool _isRunning = false; 
+        
+        /* Eventhandler */
+        public void LüfterEin()
+        {
+            _isRunning = true;
+        }
     }
 }
