@@ -16,5 +16,20 @@ namespace Aufgabe_4
         {
             InitializeComponent();
         }
+
+        private void vglBtn_Click(object sender, EventArgs e)
+        {
+            /* Read from the TextBox */
+            string eingabe = pwdText.Text; 
+            if(eingabe == "Test123")
+            {
+                /* Write on the Label */
+                ergLab.Text = "korrekt";
+            }
+            else
+            {
+                ergLab.Text = "falsch";
+            }
+        }
     }
 }
