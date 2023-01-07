@@ -8,6 +8,8 @@ Aufg 5 h.)
 
 ----- SS21 -----
 
+Aufg 3 warum wird bei dem Zugriff über den Thread anstelle von this. tB_AktTemp verwendet?
+
 ----- WS20-21 -----
 
 ----- SS20 -----
