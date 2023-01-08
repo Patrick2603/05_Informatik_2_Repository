@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3B2035C8-671B-48BC-87F9-EE679EC27C19}</ProjectGuid>
+    <ProjectGuid>{F2FCB558-6CC4-4F96-B66E-6E1CF7AA1BCB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Aufgabe_6</RootNamespace>
-    <AssemblyName>Aufgabe-6</AssemblyName>
+    <RootNamespace>Aufgabe_7</RootNamespace>
+    <AssemblyName>Aufgabe-7</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
