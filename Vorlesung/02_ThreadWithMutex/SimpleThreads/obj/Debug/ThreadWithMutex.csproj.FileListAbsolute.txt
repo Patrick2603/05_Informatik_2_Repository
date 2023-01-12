@@ -31,3 +31,10 @@ C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\07 Multithr
 C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\07 Multithreading\BeispieleVorlesung\ThreadWithMutex\SimpleThreads\obj\Debug\ThreadWithMutex.csproj.CoreCompileInputs.cache
 C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\07 Multithreading\BeispieleVorlesung\ThreadWithMutex\SimpleThreads\obj\Debug\SimpleThreads.exe
 C:\Users\mkaupp\OneDrive\Vorlesungen\Software Engineering 2\Projekte\07 Multithreading\BeispieleVorlesung\ThreadWithMutex\SimpleThreads\obj\Debug\SimpleThreads.pdb
+C:\Daten\00_Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\02_ThreadWithMutex\SimpleThreads\bin\Debug\SimpleThreads.exe.config
+C:\Daten\00_Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\02_ThreadWithMutex\SimpleThreads\bin\Debug\SimpleThreads.exe
+C:\Daten\00_Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\02_ThreadWithMutex\SimpleThreads\bin\Debug\SimpleThreads.pdb
+C:\Daten\00_Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\02_ThreadWithMutex\SimpleThreads\obj\Debug\ThreadWithMutex.csproj.AssemblyReference.cache
+C:\Daten\00_Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\02_ThreadWithMutex\SimpleThreads\obj\Debug\ThreadWithMutex.csproj.CoreCompileInputs.cache
+C:\Daten\00_Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\02_ThreadWithMutex\SimpleThreads\obj\Debug\SimpleThreads.exe
+C:\Daten\00_Studium\Semester3\02_Informatik2\05_Informatik_2_Repo\Vorlesung\02_ThreadWithMutex\SimpleThreads\obj\Debug\SimpleThreads.pdb
