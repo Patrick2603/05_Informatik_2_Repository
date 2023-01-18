@@ -9,7 +9,6 @@ Aufg 5 h.)
 ----- SS21 -----
 
 Aufg 3 warum wird bei dem Zugriff über den Thread anstelle von this. tB_AktTemp verwendet?
-Aufg 5 list.Insert(list.Count - 2, 2); ist das nicht - 1? Sogar chatGPT sagt das :D
 
 ----- WS20-21 -----
 
