@@ -10,6 +10,14 @@ namespace Aufgabe_3
     {
         static void Main(string[] args)
         {
+            EventKlasse eventKlasse = new EventKlasse();
+            HandlerKlasse handlerKlasse = new HandlerKlasse();
+
+            /* Event-Handler am Beobachter anmelden */
+            eventKlasse.WertGeändert += handlerKlasse.GeänderterWert;
+
+            eventKlasse.Wert = 10;
+            Console.ReadKey(); 
         }
     }
 }
