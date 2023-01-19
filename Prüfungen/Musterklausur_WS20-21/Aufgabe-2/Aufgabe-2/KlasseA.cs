@@ -14,6 +14,7 @@ namespace Aufgabe_2
         {
             _m = m;
         }
+
         public void Methode1()
         {
             _m.WaitOne();
@@ -24,6 +25,7 @@ namespace Aufgabe_2
             }
             _m.ReleaseMutex();
         }
+
         public void Methode2()
         {
             _m.WaitOne();
