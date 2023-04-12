@@ -55,7 +55,7 @@ namespace SerielleKommunikation
         private void OnDevicePropertyChanged(DemoDevice source, string propertyName)
         {
            switch(propertyName)
-            {
+           {
                 case "SerialNumber":
                     textBox1.Text = "Serienummer geändert! " + source.SerialNumber;
                     break;
